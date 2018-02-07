@@ -1,0 +1,8168 @@
+#VRML V1.0 ascii
+#makuhari.wrl
+Separator {
+	Separator {
+	#Setup camera
+		PerspectiveCamera {
+			position        0 0 400
+			focalDistance   400
+			heightAngle 	0.9
+		}
+	}
+}
+
+#Ground
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+
+		Coordinate3{
+			point	[
+			-220 245 -1,
+			-220 -245 -1,
+			-160 245 -1,
+			-160 -245 -1,
+			-160 245 -1,
+			-160 -220 -1,
+			-147 245 -1,
+			-147 -220 -1,
+
+			-139 245 -1,
+			-139 -220 -1,
+			-130 245 -1,
+			-130 -220 -1,
+			-130 245 -1,
+			-130 -250 -1,
+			420 245 -1,
+			420 -270 -1,
+			]
+		}
+		Material {
+			diffuseColor [0.7 1 0.7]
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,1,3,2,-1,
+				2,5,7,6,-1,
+				8,9,11,10,-1,
+				12,13,15,14,-1,
+			]
+		}
+	}
+}
+
+
+#restyle
+Separator {
+	Rotation {
+		rotation 0 0 1 -0.5
+	}
+	Transform {
+		translation 260 -56 9
+	}
+	Cube {
+		width	10
+		height	6
+		depth	18
+    }
+	Transform {
+		translation 16 -2 0
+	}
+	Cube {
+		width	10
+		height	6
+		depth	18
+    }
+	Transform {
+		translation 16 -2 0
+	}
+	Cube {
+		width	10
+		height	6
+		depth	18
+    }
+
+	Transform {
+		translation 4.5 10 -4.5
+	}
+	Cube {
+		width	5
+		height	12
+		depth	9
+    }
+
+	Transform {
+		translation 0 11 -2
+	}
+	Cube {
+		width	5
+		height	10
+		depth	5
+    }
+
+
+	Transform {
+		translation -15 3 0
+	}
+	Cube {
+		width	25
+		height	4
+		depth	5
+    }
+}
+
+
+
+#PADIOS11
+Separator {
+	Rotation {
+		rotation 0 0 1 -0.5
+	}
+	Transform {
+		translation 310 84 3
+	}
+	Cube {
+		width	4
+		height	21
+		depth	6
+    }
+	Transform {
+		translation 10 8.5 0
+	}
+	Cube {
+		width	24
+		height	4
+		depth	6
+    }
+	Transform {
+		translation 2 -12 0
+	}
+	Cube {
+		width	4
+		height	14
+		depth	6
+    }
+	Transform {
+		translation 8 0 0
+	}
+	Cube {
+		width	4
+		height	14
+		depth	6
+    }
+	Transform {
+		translation -14 -5 0
+	}
+	Cube {
+		width	8
+		height	4
+		depth	6
+    }
+
+
+}
+
+
+
+DEF PATIOS
+Separator {
+	Rotation {
+		rotation 0 0 1 -0.5
+	}
+
+	Transform {
+		translation 292 29 0
+	}
+	Coordinate3{
+		point	[
+			-8 10.5 0,
+			-8 -10.5 0,
+			8 -10.5 0,
+			8 10.5 0,
+			-8 10.5 4,
+			-8 -10.5 4,
+			8 -10.5 4,
+			8 10.5 4,
+
+			-4 6.5 4,
+			-4 -6.5 4,
+			4 -6.5 4,
+			4 6.5 4,
+			-4 6.5 0,
+			-4 -6.5 0,
+			4 -6.5 0,
+			4 6.5 0,
+		]
+	}
+	Separator {
+		Material {
+		diffuseColor 1 0.7 0.4
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,1,5,4,-1,
+				1,2,6,5,-1,
+				2,3,7,6,-1,
+				3,0,4,7,-1,
+				4,5,9,8,-1,
+				5,6,10,9,-1,
+				6,7,11,10,-1,
+				7,4,8,11,-1,
+				8,9,13,12,-1,
+				9,10,14,13,-1,
+				10,11,15,14,-1,
+				11,8,12,15,-1
+			]
+		}
+	}
+}
+
+
+
+#PATIOS
+Separator {
+	Transform {
+		translation 13 24 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 13 24 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 13 24 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 14 27 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 13 24 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 22 -13 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation -13 -24 0
+	}
+	USE PATIOS
+
+
+	Transform {
+		translation -41 -74 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation -13 -24 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation -17 73 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 13 24 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation -21 13 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation -13 -24 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 110 -65 0
+	}
+	USE PATIOS
+
+	Transform {
+		translation 13 24 0
+	}
+	USE PATIOS
+}
+
+
+
+DEF cineplex Separator {
+	WWWAnchor
+	{
+		name "http://www.cineplex.co.jp/makuhari3/makuhari3.html"
+		Transform {
+			translation 45 94 0
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor  1 0.6 0.6
+			}
+			Transform {
+				translation 0 14 2
+			}
+			Cube {
+				width	4
+				height	23
+				depth	4
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor  1 0.6 0.6
+			}
+			Transform {
+				translation 4 14.5 2
+			}
+			Cube {
+				width	4
+				height	24
+				depth	4
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor  1 1 1
+			}
+			Transform {
+				translation 2 13 4.1
+			}
+			Cube {
+				width	1
+				height	20
+				depth	0.2
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor  1 0.6 0.6
+			}
+			Transform {
+				translation 6 8 2
+			}
+			Cube {
+				width	10
+				height	11
+				depth	4
+		    }
+		}
+
+
+		#PARKING
+		Separator {
+			Material {
+				diffuseColor 0.1 0.7 0.1
+			}
+			Transform {
+				translation 14 14 1.75
+			}
+			Cube {
+				width	14
+				height	22
+				depth	3.5
+		    }
+		}
+
+
+
+
+		Separator {
+			Material {
+				transparency 0.2
+				diffuseColor 0.5 0.5 0.5
+			}
+			Transform {
+				translation 6 0 1.85
+			}
+			Cube {
+				width	10
+				height	4
+				depth	3.7
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0 1 0
+			}
+			Transform {
+				translation 10.5 0 3.7
+			}
+			Cube {
+				width	21
+				height	5
+				depth	0.2
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			Transform {
+				translation 16 0 1.8
+			}
+			Cube {
+				width	10
+				height	5
+				depth	3.6
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 0 0 2.8
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 2.5
+				height 5.6
+			}
+		}
+	}
+}
+
+
+
+#SexyTower
+Separator {
+	WWWAnchor
+	{
+		name "http://www.mitsui-hanbai.co.jp/shinchiku/A1004000/concept/tower.html"
+		Transform {
+			translation 231 20 0
+		}
+		Separator {
+			Rotation {
+				rotation 0 0 1 0.6
+			}
+			Transform {
+				translation 0 0 4
+			}
+			Material {
+				diffuseColor  1 0.3 0.3
+			}
+			Cube {
+				width	7
+				height	7
+				depth	8
+		    }
+
+			Transform {
+				translation 0 0 10
+			}
+			Material {
+				diffuseColor  1 1 0.3
+			}
+			Cube {
+				width	7
+				height	7
+				depth	12
+		    }
+			Transform {
+				translation 0 0 9
+			}
+			Material {
+				diffuseColor  0.6 1 0.8
+			}
+			Cube {
+				width	7
+				height	7
+				depth	6
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 0 0 25
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 3.5
+				height 3.5
+			}
+		}
+	}
+}
+
+
+#GardenWalk
+Separator {
+	Transform {
+		translation 84 30 0
+	}
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+
+		Transform {
+			translation -6 3 0
+		}
+		Rotation {
+			rotation 0 0 1 -0.3
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+				-0.75	-3	3.2,
+				-1.5	-1.5	3.3,
+				-1.5	1.5	3.5,
+				-0.75	3	3.6,
+				0.75		3	3.6,
+				1.5		1.5	3.5,
+				1.5		-1.5	3.3,
+				0.75	-3	3.2,
+
+				-0.75	-3	1,
+				-1.5	-1.5	1,
+				-1.5	1.5	1,
+				-0.75	3	1,
+				0.75		3	1,
+				1.5		1.5	1,
+				1.5		-1.5	1,
+				0.75	-3	1
+				]
+			}
+			Separator {
+				Material {
+				diffuseColor 1 0.7 0.4
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,9,8,-1,
+						1,2,10,9,-1,
+						2,3,11,10,-1,
+						3,4,12,11,-1,
+						4,5,13,12,-1,
+						5,6,14,13,-1,
+						6,7,15,14,-1,
+						7,0, 8,15,-1
+					]
+				}
+			}
+		}
+	}
+
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+		Separator {
+
+			Material {
+				diffuseColor 1 1 0.5
+			}
+			Rotation {
+				rotation 0 0 1 0.09
+			}
+			Transform {
+				translation -0.6 -5 0
+			}
+
+			Coordinate3{
+				point	[
+				-2	5.5	0,
+				2	5.5	0,
+				2	-5.5	0,
+				-2	-5.5	0,
+
+				-2	5.5	2.8,
+				-0.6	5.5	3,
+				0.6		5.5	3,
+				2	5.5	2.8,
+
+				-2	2	3,
+				-0.6	2	3.2,
+				0.6		2	3.2,
+				2	2	3,
+
+				-2	-2	3,
+				-0.6	-2	3.2,
+				0.6		-2	3.2,
+				2	-2	3,
+
+				-2	-5.5	2.8,
+				-0.6	-5.5	3,
+				0.6		-5.5	3,
+				2	-5.5	2.8
+				]
+			}
+			Separator {
+				Material {
+				diffuseColor 1 1 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[4,5,6,7,1,0,-1]
+				}
+				IndexedFaceSet{
+					coordIndex	[7,11,15,19,2,1,-1]
+				}
+				IndexedFaceSet{
+					coordIndex	[19,18,17,16,3,2,-1]
+				}
+				IndexedFaceSet{
+					coordIndex	[16,12,8,4,0,3,-1]
+				}
+
+				IndexedFaceSet{
+					coordIndex	[8,9,5,4,-1,
+								9,10,6,5,-1,
+								10,11,7,6,-1,
+								12,13,9,8,-1,
+								13,14,10,9,-1,
+								14,15,11,10,-1,
+								16,17,13,12,-1,
+								17,18,14,13,-1,
+								18,19,15,14,-1]
+				}
+			}
+		}
+	}
+
+
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+		Separator {
+			Material {
+				diffuseColor 1 1 0.5
+			}
+			Transform {
+				translation -7 -6.4 1.5
+			}
+			Cube {
+				width	4
+				height	14
+				depth	3
+		    }
+		}
+	}
+
+
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+		Separator {
+			Material {
+				diffuseColor 1 1 0.5
+			}
+			Transform {
+				translation 6.4 -6.8 1.5
+			}
+			Cube {
+				width	4
+				height	13.6
+				depth	3
+		    }
+		}
+	}
+
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+		Separator {
+			Material {
+				diffuseColor 1 1 0.5
+			}
+			Transform {
+				translation 5.4 11.8 1.5
+			}
+			Cube {
+				width	4
+				height	14.5
+				depth	3
+		    }
+		}
+	}
+
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+		Separator {
+			Coordinate3{
+				point	[
+				-9	4	3,
+				-9	12	3,
+				-5	10	3,
+				1	9	3,
+				1	4	3,
+				-9	4	0,
+				-9	12	0,
+				-5	10	0,
+				1	9	0,
+				1	4	0
+				]
+			}
+
+			Separator {
+				Material {
+				diffuseColor 1 1 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,6,5,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						7,6,1,-1,
+						2,7,1,-1,
+						8,7,2,-1,
+						3,8,2,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						3,4,9,8,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						4,0,5,9,-1
+					]
+				}
+			}
+			Separator {
+				Material {
+					diffuseColor 1 1 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						2,1,0,-1,
+						3,2,0,-1,
+						4,3,0,-1,
+					]
+				}
+			}
+		}
+	}
+
+
+
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+		Separator {
+			Coordinate3{
+				point	[
+				2.5	19	3,
+				2.5	12	3,
+				-3	14	3,
+				-7.5	14.5	3,
+				-8	19	3,
+
+				2.5	19	0,
+				2.5	12	0,
+				-3	14	0,
+				-7.5	14.5	0,
+				-8	19	0
+				]
+			}
+
+			Separator {
+				Material {
+				diffuseColor 1 1 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						1,6,5,0,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						1,2,7,6,-1,
+						2,3,8,7,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						3,4,9,8,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						4,0,5,9,-1
+					]
+				}
+			}
+			Separator {
+				Material {
+					diffuseColor 1 1 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						2,1,0,-1,
+						3,2,0,-1,
+						4,3,0,-1,
+					]
+				}
+			}
+		}
+	}
+
+
+
+	WWWAnchor
+	{
+		name "http://www.gardenwalk-outlet.com"
+		Separator {
+			Coordinate3{
+				point	[
+				-8.2	-15	3,
+				8.2	-15	3,
+				8.2	-18	3,
+				7.2	-19	3,
+				-8.2	-19	3,
+				-8.2	-15	0,
+				8.2	-15	0,
+				8.2	-18	0,
+				7.2	-19	0,
+				-8.2	-19	0
+				]
+			}
+			Separator {
+				Material {
+				diffuseColor 1 1 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,6,5,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						1,2,7,6,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						2,3,8,7,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						3,4,9,8,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						4,5,9,-1,4,0,5,-1
+					]
+				}
+			}
+			Separator {
+				Material {
+					diffuseColor 1 1 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						2,1,0,-1,
+						3,2,0,-1,
+						4,3,0,-1,
+					]
+				}
+			}
+		}
+	}
+
+
+
+
+
+	Separator {
+		Coordinate3{
+			point	[
+			-8		9	3.3,
+			-8.4	10	3.3,
+			-8.7	13.5	3.3,
+			-8.4	17	3.3,
+			-8		18	3.3,
+			-7.6	17	3.3,
+			-7.3	13.5	3.3,
+			-7.6	10	3.3
+			]
+		}
+		Separator {
+			Material {
+				diffuseColor 1 0 0
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,6,5,4,3,2,1,0,-1
+				]
+			}
+		}
+	}
+
+
+	Separator {
+		Coordinate3{
+			point	[
+			3		9	3.3,
+			2.6		10	3.3,
+			2.5		11	3.3,
+			2.6		12	3.3,
+			3		13	3.3,
+			3.4		12	3.3,
+			3.5		11	3.3,
+			3.4		10	3.3
+			]
+		}
+		Separator {
+			Material {
+				diffuseColor 1 0.8 0
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,6,5,4,3,2,1,0,-1
+				]
+			}
+		}
+	}
+
+	Separator {
+		Coordinate3{
+			point	[
+			0		-14.5	3.3,
+			-3		-14.4	3.3,
+			-4		-14	3.3,
+			-3		-13.6	3.3,
+			0		-13.5	3.3,
+			3		-13.6	3.3,
+			4		-14	3.3,
+			3		-14.4	3.3
+			]
+		}
+		Separator {
+			Material {
+				diffuseColor 1 0 0
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,6,5,4,3,2,1,0,-1
+				]
+			}
+		}
+	}
+}
+
+#IBM
+Separator {
+	WWWAnchor
+	{
+		name "http://www.ibm.co.jp"
+		Transform {
+			translation 0 195 0
+		}
+
+
+		Separator {
+			Material {
+				transparency 0.6
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 10 -8.75 2.25
+			}
+			Cube {
+				width	3
+				height	11.5
+				depth	1.5
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			Transform {
+				translation 10 -17 1.5
+			}
+			Cube {
+				width	3
+				height	5
+				depth	3
+		    }
+		}
+
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 0 3 5.75
+			}
+			Cube {
+				width	50
+				height	2
+				depth	11.5
+		    }
+		}
+
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 0 0 2.5
+			}
+		    Cube {
+				width	50
+				height	8
+				depth	5
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.5 0.5 0.5
+			}
+			Transform {
+				translation -13 -1 8
+			}
+		    Cube {
+				width	24
+				height	6
+				depth	6
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.5 0.5 0.5
+			}
+			Transform {
+				translation 18 -1 8
+			}
+		    Cube {
+				width	14
+				height	6
+				depth	6
+		    }
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 18 5 5.75
+			}
+			Cube {
+				width	14
+				height	2
+				depth	11.5
+		    }
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.5 0.5 0.5
+			}
+			Transform {
+				translation 18 9 8
+			}
+		    Cube {
+				width	14
+				height	6
+				depth	6
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 18 7.9 2.5
+			}
+		    Cube {
+				width	14
+				height	8
+				depth	5
+		    }
+		}
+
+	}
+}
+
+
+#NTT
+Separator {
+	WWWAnchor
+	{
+		name "http://www.ntt.co.jp"
+		Transform {
+			translation -79 121 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 0 -15 26.2
+			}
+			Cube {
+				width	5
+				height	5
+				depth	0.2
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			Transform {
+				translation 0 0 24.1
+			}
+			Cube {
+				width	14
+				height	34.5
+				depth	2
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.5 0.5 0.5
+			}
+			Transform {
+				translation 6.5 0 12.5
+			}
+		    Cube {
+				width	6
+				height	34
+				depth	25
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.5 0.5 0.5
+			}
+			Transform {
+				translation -6.5 0 12.5
+			}
+		    Cube {
+				width	6
+				height	34
+				depth	25
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 0 0 11.5
+			}
+		    Cube {
+				width	8
+				height	30
+				depth	23
+		    }
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				12		0	5,
+				24		-12	5,
+				24		12	5,
+				12		0	0,
+				24		-12	0,
+				24		12	0,
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			IndexedFaceSet{coordIndex	[0,3,4,-1,0,4,1,-1]}
+			IndexedFaceSet{coordIndex	[1,4,5,-1,1,5,2,-1]}
+			IndexedFaceSet{coordIndex	[2,5,3,-1,2,3,0,-1]}
+			IndexedFaceSet{coordIndex	[0,1,2,-1]}
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 12 7 0.5
+			}
+			Cube {
+				width	2
+				height	76
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 12 7 1.5
+			}
+			Cube {
+				width	2
+				height	72
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 12 7 2.5
+			}
+			Cube {
+				width	2
+				height	68
+				depth	1
+		    }
+		}
+
+
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 10 0 2
+			}
+			Cube {
+				width	12
+				height	9
+				depth	4
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 16 7 0.5
+			}
+			Cube {
+				width	2
+				height	76
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 16 7 1.5
+			}
+			Cube {
+				width	2
+				height	72
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 16 7 2.5
+			}
+			Cube {
+				width	2
+				height	68
+				depth	1
+		    }
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 25 7 0.5
+			}
+			Cube {
+				width	2
+				height	76
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 25 7 1.5
+			}
+			Cube {
+				width	2
+				height	72
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 25 7 2.5
+			}
+			Cube {
+				width	2
+				height	68
+				depth	1
+		    }
+		}
+
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				11		39	3,
+				11		-25	3,
+				19		-25	3,
+				19		39	3,
+				19		31	3,
+				23		31	3,
+				23		39	3,
+				19		27	3,
+				19		-14	3,
+				23		-14	3,
+				23		27	3,
+				19		-18	3,
+				19		-25	3,
+				23		-25	3,
+				23		-18	3,
+				26		-25	3,
+				26		39	3,
+				17		-25	3,
+				17		-29	0,
+				24		-29	0,
+				24		-25	3,
+				17		45	0,
+				17		39	3,
+				24		39	3,
+				24		45	0,
+
+
+				24		15	5,
+				12		27	5,
+				12		27	2,
+				24		15 2,
+
+				]
+			}
+
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			IndexedFaceSet{coordIndex	[0,1,2,3,-1]}
+			IndexedFaceSet{coordIndex	[3,4,5,6,-1]}
+			IndexedFaceSet{coordIndex	[7,8,9,10,-1]}
+			IndexedFaceSet{coordIndex	[11,12,13,14,-1]}
+			IndexedFaceSet{coordIndex	[6,13,15,16,-1]}
+			IndexedFaceSet{coordIndex	[17,18,19,20,-1]}
+			IndexedFaceSet{coordIndex	[21,22,23,24,-1]}
+
+			IndexedFaceSet{coordIndex	[25,26,27,28,-1]}
+
+		}
+
+
+
+	}
+}
+
+
+
+
+#MTG
+Separator {
+	WWWAnchor
+	{
+		name "http://www.mtg-bld.co.jp/"
+		Transform {
+			translation 5 133 0
+		}
+		Separator {
+			Coordinate3{
+				point	[
+				-7.5	-5.5	4,
+				-5.5	-7.5	4,
+				5.5		-7.5	4,
+				7.5		-5.5	4,
+				7.5		5.5	4,
+				5.5		7.5	4,
+				-5.5	7.5	4,
+				-7.5	5.5	4,
+
+				-7.5	-5.5	0,
+				-5.5	-7.5	0,
+				5.5		-7.5	0,
+				7.5		-5.5	0,
+				7.5		5.5	0,
+				5.5		7.5	0,
+				-5.5	7.5	0,
+				-7.5	5.5	0
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			Transform {
+				translation -12 -26 0
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,8,9,-1,
+					0,9,1,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					1,9,10,-1,
+					1,10,2,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					2,10,11,-1,
+					2,11,3,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					3,11,12,-1,
+					3,12,4,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					4,12,13,-1,
+					4,13,5,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					5,13,14,-1,
+					5,14,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,14,15,-1,
+					6,15,7,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,15,8,-1,
+					7,8,0,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,
+					7,1,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,1,2,-1,
+					6,2,5,-1,
+					5,2,3,-1,
+					5,3,4,-1
+				]
+			}
+		}
+
+
+		#WestHigh
+		Separator {
+			Coordinate3{
+				point	[
+				-7		-6.75	24.5,
+				-5		-8.75	24.5,
+				6		-8.75	24.5,
+				7		-6.75	24.5,
+				7		6.75	24.5,
+				5		8.75	24.5,
+				-5		8.75	24.5,
+				-7		6.75	24.5,
+
+				-7		-6.75	0,
+				-5		-8.75	0,
+				6		-8.75	0,
+				7		-6.75	0,
+				7		6.75	0,
+				5		8.75	0,
+				-5		8.75	0,
+				-7		6.75	0
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			Transform {
+				translation -13 -11 0
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,8,9,-1,
+					0,9,1,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					1,9,10,-1,
+					1,10,2,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					2,10,11,-1,
+					2,11,3,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					3,11,12,-1,
+					3,12,4,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					4,12,13,-1,
+					4,13,5,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					5,13,14,-1,
+					5,14,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,14,15,-1,
+					6,15,7,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,15,8,-1,
+					7,8,0,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,
+					7,1,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,1,2,-1,
+					6,2,5,-1,
+					5,2,3,-1,
+					5,3,4,-1
+				]
+			}
+		}
+
+		WWWAnchor
+		{
+			name "http://www.wni.co.jp/"
+			Separator {
+				Coordinate3{
+					point	[
+					-6.5	-6.25	4,
+					-5		-7.75	4,
+					5		-7.75	4,
+					6.5		-6.25	4,
+					6.5		0.5	4,
+					-0.75	7.75	4,
+					-5		7.75	4,
+					-6.5	6.25	4,
+
+					-6.5	-6.25	0,
+					-5		-7.75	0,
+					5		-7.75	0,
+					6.5		-6.25	0,
+					6.5		0.5		0,
+					-0.75	7.75	0,
+					-5		7.75	0,
+					-6.5	6.25	0
+					]
+				}
+
+				Material {
+					diffuseColor 0.9 1 1
+				}
+				Transform {
+					translation -13 5 0
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,8,9,-1,
+						0,9,1,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						1,9,10,-1,
+						1,10,2,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						2,10,11,-1,
+						2,11,3,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						3,11,12,-1,
+						3,12,4,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						4,12,13,-1,
+						4,13,5,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						5,13,14,-1,
+						5,14,6,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						6,14,15,-1,
+						6,15,7,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[7,15,8,-1,7,8,0,-1]
+				}
+				IndexedFaceSet{
+					coordIndex	[0,1,7,-1,7,1,6,-1]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						6,1,2,-1,
+						6,2,5,-1,
+						5,2,3,-1,
+						5,3,4,-1
+					]
+				}
+			}
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+				6.25	6.5		4,
+				7.75	5		4,
+				7.75	-5		4,
+				6.25	-6.5	4,
+				-0.5	-6.5	4,
+				-7.75	0.75	4,
+				-7.75	5		4,
+				-6.25	6.5		4,
+
+				6.25	6.5		0,
+				7.75	5		0,
+				7.75	-5		0,
+				6.25	-6.5	0,
+				-0.5	-6.5	0,
+				-7.75	0.75	0,
+				-7.75	5		0,
+				-6.25	6.5		0
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			Transform {
+				translation -5 13 0
+			}
+			IndexedFaceSet{
+				coordIndex	[0,8,9,-1,0,9,1,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[1,9,10,-1,1,10,2,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[2,10,11,-1,2,11,3,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[3,11,12,-1,3,12,4,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					4,12,13,-1,
+					4,13,5,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					5,13,14,-1,
+					5,14,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,14,15,-1,
+					6,15,7,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,15,8,-1,
+					7,8,0,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,
+					7,1,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,1,2,-1,
+					6,2,5,-1,
+					5,2,3,-1,
+					5,3,4,-1
+				]
+			}
+		}
+		Separator {
+			Material {
+				diffuseColor 0.3 0.3 0.3
+				transparency 0.1
+			}
+			Coordinate3{
+				point	[
+				0	0	6,
+				-2.5	-2.5	4,
+				2.5	-2.5	4,
+				2.5	2.5	4,
+				-2.5	2.5	4]
+			}
+			Transform {
+				translation -10 10 0
+			}
+			IndexedFaceSet{coordIndex	[0,1,2,-1]}
+			IndexedFaceSet{coordIndex	[0,2,3,-1]}
+			IndexedFaceSet{coordIndex	[0,3,4,-1]}
+			IndexedFaceSet{coordIndex	[0,4,1,-1]}
+		}
+		Separator {
+			Coordinate3{
+				point	[
+				-8.75	-5.5	24.5,
+				-7.25	-7	24.5,
+				7.75	-7	24.5,
+				8.75	-6	24.5,
+				8.75	5	24.5,
+				6.75	7	24.5,
+				-6.75	7	24.5,
+				-8.75	5	24.5,
+				-8.75	-5.5	0,
+				-7.25	-7	0,
+				7.75	-7	0,
+				8.75	-6	0,
+				8.75	5	0,
+				6.75	7	0,
+				-6.75	7	0,
+				-8.75	5	0
+
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			Transform {
+				translation 11 13 0
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					0,8,9,-1,
+					0,9,1,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					1,9,10,-1,
+					1,10,2,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					2,10,11,-1,
+					2,11,3,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					3,11,12,-1,
+					3,12,4,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					4,12,13,-1,
+					4,13,5,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					5,13,14,-1,
+					5,14,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,14,15,-1,
+					6,15,7,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,15,8,-1,
+					7,8,0,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,
+					7,1,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,1,2,-1,
+					6,2,5,-1,
+					5,2,3,-1,
+					5,3,4,-1
+				]
+			}
+		}
+
+		WWWAnchor
+		{
+			name "http://www.tepco.co.jp"
+			Separator {
+				Material {
+					diffuseColor 0.9 1 1
+				}
+				Transform {
+					translation -11 28.5 1.25
+				}
+				Cube {
+					width	17.5
+					height	8.5
+					depth	2.5
+			    }
+			}
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				-8.25	-3.75	4,
+				8.25	-3.75	4,
+				8.25	2	4,
+				6.5		3.75	4,
+				-6.5	3.75	4,
+				-8.25	2	4,
+
+				-8.25	-3.75	0,
+				8.25	-3.75	0,
+				8.25	2	0,
+				6.5		3.75	0,
+				-6.5	3.75	0,
+				-8.25	2	0
+
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			Transform {
+				translation 10 28 0
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,
+					0,7,6,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					1,2,8,-1,
+					1,8,7,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					2,3,9,-1,
+					2,9,8,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					3,4,10,-1,
+					3,10,9,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					4,5,11,-1,
+					4,11,10,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					5,0,6,-1,
+					5,6,11,-1
+				]
+			}
+
+
+			IndexedFaceSet{
+				coordIndex	[
+					0,5,4,-1,
+					0,4,3,-1,
+					0,3,2,-1,
+					0,2,1,-1
+				]
+			}
+
+		}
+
+		#Rounge
+		Separator {
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			Transform {
+				translation 0 0 0
+			}
+
+			Coordinate3{
+				point	[
+				2	-4	0,
+				4	-2	0,
+				4	4	0,
+				-2	4	0,
+				-4	2	0,
+				-4	-4	0,
+
+				2	-4	2,
+				4	-2	2,
+				4	4	2,
+				-2	4	2,
+				-4	2	2,
+				-4	-4	2,
+
+				3	-3	3,
+				-3	3	3]
+			}
+			IndexedFaceSet{
+				coordIndex
+				[0,6,12,-1,
+				0,12,1,-1,
+				1,12,7,-1]
+			}
+			IndexedFaceSet{
+				coordIndex[1,7,8,-1,1,8,2,-1]
+			}
+			IndexedFaceSet{
+				coordIndex[2,8,9,-1,2,9,3,-1]
+			}
+			IndexedFaceSet{
+				coordIndex[3,9,10,-1,3,10,4,-1,9,13,10,-1]
+			}
+			IndexedFaceSet{
+				coordIndex[4,10,11,-1,4,11,5,-1]
+			}
+			IndexedFaceSet{
+				coordIndex[5,11,6,-1,5,6,0,-1]
+			}
+
+
+			IndexedFaceSet{
+				coordIndex[12,13,9,-1,12,9,7,-1]
+			}
+
+			IndexedFaceSet{
+				coordIndex[6,10,13,-1,6,13,12,-1]
+			}
+
+			IndexedFaceSet{
+				coordIndex[7,9,8,-1]
+			}
+			IndexedFaceSet{
+				coordIndex[6,11,10,-1]
+			}
+
+		}
+	}
+}
+
+
+#AEON
+Separator {
+	WWWAnchor
+	{
+		name "http://www.aeon.co.jp"
+		Transform {
+			translation -71 70 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			Transform {
+				translation 0 0 1
+			}
+			Cube {
+				width	12
+				height	10
+				depth	2
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.7
+			}
+			Transform {
+				translation -10 4 2
+			}
+			Cube {
+				width	12
+				height	10
+				depth	4
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.7
+			}
+			Transform {
+				translation 10 -4 12.5
+			}
+			Cube {
+				width	12
+				height	10
+				depth	25
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.1 0.6 0.1
+			}
+			Transform {
+				translation 14 -4 24
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 3.5
+				height 1.5
+			}
+		}
+		Separator {
+			Material {
+				diffuseColor 0.1 0.6 0.1
+			}
+			Transform {
+				translation 6 -4 24
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 3.5
+				height 1.5
+			}
+		}
+	}
+}
+
+
+#ROBCEN
+Separator {
+	WWWAnchor
+	{
+		name "http://www.starts.co.jp/"
+		Transform {
+			translation -119 163 0
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 0 0 8
+			}
+			Cube {
+				width	11
+				height	7
+				depth	16
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 0 0 8
+			}
+			Cube {
+				width	7
+				height	11
+				depth	16
+		    }
+		}
+
+
+		WWWAnchor
+		{
+			name "http://www.starts.co.jp/"
+			Separator {
+				Material {
+					diffuseColor 1 1 1
+				}
+				Transform {
+					translation -5.5 0 1.25
+				}
+				Rotation {
+					rotation 1 0 0 1.5708
+				}
+				Cylinder {
+					radius 5.5
+					height 2.5
+				}
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 5.5 0 1.25
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 5.5
+				height 2.5
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation -5.5 0 3
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 3.5
+				height 1
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 5.5 0 3
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 3.5
+				height 1
+			}
+		}
+	}
+}
+
+
+
+#ACCESS
+Separator {
+	WWWAnchor
+	{
+		name "http://jp.access-company.com/"
+		Transform {
+			translation -122 76 0
+		}
+		Rotation {
+			rotation 0 0 1 0.9
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation -5.5 0.5 5
+			}
+			Cube {
+				width	11
+				height	4
+				depth	10
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation -8 -1 5.75
+			}
+			Cube {
+				width	6
+				height	2
+				depth	11.5
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 0 0 5
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 2.5
+				height 10
+			}
+		}
+	}
+}
+
+
+#TOKYOMARINE
+Separator {
+	WWWAnchor
+	{
+		name "http://www.tokiomarine-nichido.co.jp/"
+		Transform {
+			translation -11 71 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.7 0.9 0.9
+			}
+			Transform {
+				translation 0 3 9
+			}
+			Cube {
+				width	12
+				height	2
+				depth	18
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.7 0.9 0.9
+			}
+			Transform {
+				translation 0 -3 9
+			}
+			Cube {
+				width	12
+				height	2
+				depth	18
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.7 0.9 0.9
+			}
+			Transform {
+				translation 4 0 9
+			}
+			Cube {
+				width	2
+				height	10
+				depth	18
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.7 0.9 0.9
+			}
+			Transform {
+				translation -4 0 9
+			}
+			Cube {
+				width	2
+				height	10
+				depth	18
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.7 0.9 0.9
+			}
+			Transform {
+				translation 0 0 19
+			}
+			Cube {
+				width	12
+				height	8
+				depth	2
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.7 0.9 0.9
+			}
+			Transform {
+				translation 0 0 19
+			}
+			Cube {
+				width	10
+				height	10
+				depth	2
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0 0 0.6
+			}
+			Transform {
+				translation 0 0 9.75
+			}
+			Cube {
+				width	11.5
+				height	9.5
+				depth	19.5
+		    }
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 0
+			}
+			Transform {
+				translation 19 1.5 0.5
+			}
+			Cube {
+				width	15
+				height	7
+				depth	1
+		    }
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 0
+			}
+			Transform {
+				translation 14 3.650 1.5
+			}
+			Cube {
+				width	5
+				height	2.7
+				depth	1
+		    }
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 1 0 0
+			}
+			Transform {
+				translation 14 1.5 1.5
+			}
+			Cube {
+				width	4
+				height	1
+				depth	1
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 1 0 0
+			}
+			Transform {
+				translation 14 -1.5 1.5
+			}
+			Cube {
+				width	4
+				height	1
+				depth	1
+		    }
+		}
+
+
+
+		Separator {
+			Transform {
+				translation 18 0 0
+			}
+			Coordinate3{
+				point	[
+					0 -1 1,
+					3 -1 1,
+					3.2 -0.5 1,
+					3.2 0.5 1,
+					3 1 1,
+					0 1 1,
+					0 -1 1.7,
+					3 -1 1.7,
+					3.2 -0.5 1.7,
+					3.2 0.5 1.7,
+					3 1 1.7,
+					0 1 1.7,
+
+					-6 1 1.7,
+					-6 -1 1.7,
+
+					-6 0 2,
+					-0 0 2,
+				]
+			}
+			Separator {
+				Material {
+					diffuseColor 0 0.5 1
+					transparency 0.5
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,7,6,-1,
+						4,5,11,10,-1,
+						5,0,6,11,-1,
+
+						1,2,8,7,-1,
+						2,3,9,8,-1,
+						3,4,10,9,-1,
+						3,4,10,9,-1,
+					]
+				}
+
+
+				Material {
+					diffuseColor 1 1 1
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						6,7,8,9,10,11,-1,
+					]
+				}
+
+				Material {
+					diffuseColor 1 1 1
+					transparency 0.5
+				}
+
+				IndexedFaceSet{
+					coordIndex	[
+						11,12,14,15,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						6,15,14,13,-1
+					]
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+#CANON
+Separator {
+	WWWAnchor
+	{
+		name "http://www.canon-sales.co.jp/"
+		Transform {
+			translation -78 190 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+				specularColor 0.6 0.6 0.6
+			}
+			Transform {
+				translation 0 0 11
+			}
+			Cube {
+				width	12
+				height	5
+				depth	22
+			}
+			Cube {
+				width	8
+				height	9
+				depth	22
+		    }
+		}
+
+
+
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				3.9		-4.4	20,
+				5.9		-2.4	20,
+				5.9		2.4		20,
+				3.9		4.4		20,
+				-3.9	4.4		20,
+				-5.9	2.4		20,
+				-5.9	-2.4	20,
+				-3.9	-4.4	20,
+				3.9		-4.4	5,
+				5.9		-2.4	5,
+				5.9		2.4		5,
+				3.9		4.4		5,
+				-3.9	4.4		5,
+				-5.9	2.4		5,
+				-5.9	-2.4	5,
+				-3.9	-4.4	5,
+				4	-3.5	25,
+				5	-2.5	25,
+				5	2.5	25,
+				4	3.5	25,
+				-4	3.5	25,
+				-5	2.5	25,
+				-5	-2.5	25,
+				-4	-3.5	25,
+				4	-3.5	20,
+				5	-2.5	20,
+				5	2.5	20,
+				4	3.5	20,
+				-4	3.5	20,
+				-5	2.5	20,
+				-5	-2.5	20,
+				-4	-3.5	20,
+
+				0	-4	4,
+				4	-8	4,
+				4	-4	4,
+				0	-4	2.5,
+				4	-8	2.5,
+				4	-4	2.5,
+				]
+			}
+
+			Material {
+				diffuseColor 0.4 0.4 0.4
+				specularColor 0.6 0.6 0.6
+			}
+			IndexedFaceSet{coordIndex[0,8,9,1,-1]}
+			IndexedFaceSet{coordIndex[2,10,11,3,-1]}
+			IndexedFaceSet{coordIndex[4,12,13,5,-1]}
+			IndexedFaceSet{coordIndex[6,14,15,7,-1]}
+
+			IndexedFaceSet{coordIndex[16,24,25,17,-1]}
+			IndexedFaceSet{coordIndex[17,25,26,18,-1]}
+			IndexedFaceSet{coordIndex[18,26,27,19,-1]}
+			IndexedFaceSet{coordIndex[19,27,28,20,-1]}
+			IndexedFaceSet{coordIndex[20,28,29,21,-1]}
+			IndexedFaceSet{coordIndex[21,29,30,22,-1]}
+			IndexedFaceSet{coordIndex[22,30,31,23,-1]}
+			IndexedFaceSet{coordIndex[23,31,24,16,-1]}
+			IndexedFaceSet{coordIndex[32,35,36,33,-1]}
+			IndexedFaceSet{coordIndex[33,36,37,34,-1]}
+
+			IndexedFaceSet{coordIndex[
+					32,33,34,-1,
+					35,37,34,-1
+				]
+			}
+
+
+			IndexedFaceSet{
+				coordIndex	[16,17,18,19,20,21,22,23,-1]
+			}
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 1.0 0.9 0.7
+			}
+			Transform {
+				translation 0 5.25 2
+			}
+			Cube {
+				width	8
+				height	1.5
+				depth	4
+			}
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 1.0 0.9 0.7
+			}
+			Transform {
+				translation 3 13 1
+			}
+			Cube {
+				width	18
+				height	14
+				depth	2
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1.0 0.9 0.7
+			}
+			Transform {
+				translation 3 13 3
+			}
+			Cube {
+				width	14
+				height	14
+				depth	2
+			}
+			Cube {
+				width	18
+				height	10
+				depth	2
+			}
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 1.0 0.9 0.7
+			}
+			Transform {
+				translation -4.75 18.75 3.5
+			}
+			Cube {
+				width	1.5
+				height	1.5
+				depth	3
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1.0 0.9 0.7
+			}
+			Transform {
+				translation 10.75 18.75 3.5
+			}
+			Cube {
+				width	1.5
+				height	1.5
+				depth	3
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1.0 0.9 0.7
+			}
+			Transform {
+				translation -4.75 7.25 3.5
+			}
+			Cube {
+				width	1.5
+				height	1.5
+				depth	3
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1.0 0.9 0.7
+			}
+			Transform {
+				translation 10.75 7.25 3.5
+			}
+			Cube {
+				width	1.5
+				height	1.5
+				depth	3
+			}
+		}
+
+	}
+}
+
+
+#POLICE
+Separator {
+	WWWAnchor
+	{
+		name "http://www1m.mesh.ne.jp/chiba110/"
+		Transform {
+			translation 42 66 0
+		}
+		Separator {
+			Coordinate3{
+				point	[
+					0.8 1.2 0,
+					0.8 1.6 0,
+					0.4 2.0 0,
+					-0.4 2.0 0,
+					-0.8 1.6 0,
+					-0.8 1.2 0,
+
+					0.8 1.2 3,
+					0.8 1.6 3,
+					0.4 2.0 3,
+					-0.4 2.0 3,
+					-0.8 1.6 3,
+					-0.8 1.2 3,
+
+					0.4 1.2 3.4,
+					0.4 1.6 3.4,
+					-0.4 1.6 3.4,
+					-0.4 1.2 3.4,
+
+				]
+			}
+			Separator {
+				Material {
+					diffuseColor 1 1 1
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,7,6,-1,
+						1,2,8,7,-1,
+						2,3,9,8,-1,
+						3,4,10,9,-1,
+						4,5,11,10,-1,
+
+						6,7,13,12,-1,
+						7,8,13,-1,
+						8,9,14,13,-1,
+						9,10,14,-1,
+
+						10,11,15,14,-1,
+						12,13,14,15,-1,
+
+						0,6,12,15,11,5,-1,
+
+					]
+				}
+			}
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+
+					-0.8 -1.2 0,
+					-0.8 -1.6 0,
+					-0.4 -2.0 0,
+					0.4 -2.0 0,
+					0.8 -1.6 0,
+					0.8 -1.2 0,
+
+
+
+					-0.8 -1.2 3,
+					-0.8 -1.6 3,
+					-0.4 -2.0 3,
+					0.4 -2.0 3,
+					0.8 -1.6 3,
+					0.8 -1.2 3,
+
+					-0.4 -1.2 3.4,
+					-0.4 -1.6 3.4,
+					0.4 -1.6 3.4,
+					0.4 -1.2 3.4,
+
+
+
+				]
+			}
+			Separator {
+				Material {
+					diffuseColor 1 1 1
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,7,6,-1,
+						1,2,8,7,-1,
+						2,3,9,8,-1,
+						3,4,10,9,-1,
+						4,5,11,10,-1,
+
+						6,7,13,12,-1,
+						7,8,13,-1,
+						8,9,14,13,-1,
+						9,10,14,-1,
+
+						10,11,15,14,-1,
+						12,13,14,15,-1,
+
+						0,6,12,15,11,5,-1,
+					]
+				}
+			}
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0 0.8 1
+			}
+			Transform {
+				translation 0 0 2
+			}
+			Cylinder {
+				radius 1.0
+				height 2.8
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0 0.8 1
+			}
+			Transform {
+				translation 0 0 1
+			}
+			Cube {
+				width	2
+				height	2.8
+				depth	2
+		    }
+		}
+	}
+}
+
+
+#SII
+Separator {
+	WWWAnchor
+	{
+		name "http://www.sii.co.jp/"
+		Transform {
+			translation -118 182 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0 0 1
+			}
+			Transform {
+				translation -16 1 26
+			}
+			Rotation {
+				rotation 0 0 1  0.7854
+			}
+			Cylinder {
+				radius 0.7
+				height 0.3
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0 0 1
+			}
+			Transform {
+				translation -16.6 0.4 26.5
+			}
+			Rotation {
+				rotation 0 0 1  0.7854
+			}
+			Cylinder {
+				radius 0.2
+				height 0.3
+			}
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 6 13 2
+			}
+			Rotation {
+				rotation 1 0 0  1.5708
+			}
+			Cylinder {
+				radius 4.5
+				height 4
+			}
+		}
+
+		Separator {
+			Transform {
+				translation 6 13 4
+			}
+			Coordinate3{
+				point	[
+				0	0	0,
+				-1.5	-1.5	1,
+				1.5		-1.5	1,
+				1.5		1.5		1,
+				-1.5		1.5		1,
+				]
+			}
+			Material {
+				diffuseColor 0.6 0.6 0.6
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					1,2,3,4,-1,
+					0,1,4,-1,
+					0,2,1,-1,
+					0,3,2,-1,
+					0,4,3,-1,
+				]
+			}
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				0			17		25,
+				-4.3		16.42	25,
+				-8.5		14.72	25,
+				-12.02		12.02	25,
+				-14.72		8.5		25,
+				-16.42		4.3		25,
+				-17			0		25,
+
+				0			17		0,
+				-4.3		16.42	0,
+				-8.5		14.72	0,
+				-12.02		12.02	0,
+				-14.72		8.5		0,
+				-16.42		4.3		0,
+				-17			0		0
+				]
+			}
+
+			Material {
+				diffuseColor 0.3 0.3 0.3
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,7,8,1,-1,
+					1,8,9,2,-1,
+					2,9,10,3,-1,
+					3,10,11,4,-1,
+					4,11,12,5,-1,
+					5,12,13,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,2,-1,
+					0,2,3,-1,
+					0,3,4,-1,
+					0,4,5,-1,
+					0,5,6,-1
+				]
+			}
+		}
+
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				0		12		27,
+				0		17		27,
+				-17		0		27,
+				-12		0		27,
+
+				0		12		0,
+				0		17		0,
+				-17		0		0,
+				-12		0		0
+				]
+			}
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,4,5,1,-1,
+					2,6,7,3,-1
+				]
+			}
+
+
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			IndexedFaceSet{
+				coordIndex	[1,5,6,2,-1]
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation -10 2 13.5
+			}
+			Cube {
+				width	4
+				height	4
+				depth	27
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation -2 10 13.5
+			}
+			Cube {
+				width	4
+				height	4
+				depth	27
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+				transparency 0.6
+			}
+			Transform {
+				translation -6 6 13.5
+			}
+			Cube {
+				width	4
+				height	4
+				depth	27
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation -20 23 3
+			}
+			Cube {
+				width	2
+				height	2
+				depth	6
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation -8.5 22 2
+			}
+			Cube {
+				width	17
+				height	4
+				depth	4
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 7 22 3
+			}
+			Cube {
+				width	6
+				height	4
+				depth	2
+		    }
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 2 20.5 2
+			}
+			Cube {
+				width	4
+				height	1
+				depth	4
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation -6.5 19 1
+			}
+			Cube {
+				width	13
+				height	2
+				depth	2
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 11 23 4
+			}
+			Cube {
+				width	2
+				height	2
+				depth	4
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 2.5 13 2.5
+			}
+			Cube {
+				width	5
+				height	14
+				depth	1
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation -2 7 2.5
+			}
+			Cube {
+				width	4
+				height	2
+				depth	1
+		    }
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				-4	4	2,
+				-4	8	2,
+				0	8	2,
+				0	24	2,
+				12	24	2,
+				12	9	2,
+				10	9	2,
+				9	4	2,
+
+				-4	4	0,
+				-4	8	0,
+				0	8	0,
+				0	24	0,
+				12	24	0,
+				12	4	0,
+				9	4	0,
+
+
+				11.2	22	2,
+				12		22	2,
+				11.2	22	3,
+				12		22	3,
+				10.7	16	2,
+				12		16	2,
+
+				]
+			}
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+
+
+
+			IndexedFaceSet{
+				coordIndex	[
+					0,7,2,1,-1,
+					2,7,6,3,-1,
+					6,5,4,3,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					6,14,13,5,-1,
+					6,7,14,-1,
+					5,13,12,4,-1,
+					0,8,14,7,-1,
+					3,4,12,11,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					17,19,20,18,-1,
+					15,19,17,-1,
+					20,16,18,-1,
+				]
+			}
+
+		}
+
+	}
+}
+
+#SHARP
+Separator {
+	WWWAnchor
+	{
+		name "http://www.sharp.co.jp/"
+		Transform {
+			translation -116 143 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 7 0 21
+			}
+			Cube {
+				width	8
+				height	16
+				depth	2
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			Transform {
+				translation 8.25 0 10
+			}
+			Cube {
+				width	5.5
+				height	16
+				depth	20
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 4.25 0 10
+			}
+			Cube {
+				width	2.5
+				height	16
+				depth	20
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation -5 0 1
+			}
+			Cube {
+				width	16
+				height	16
+				depth	2
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 5.5 0 16
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 8
+				height 1
+				parts SIDES
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 9 0 16
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 8
+				height 1
+				parts SIDES
+			}
+		}
+
+
+
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				3	-2.6	0,
+				3	-2.6	19,
+				2.5	-2.6	0,
+				2.5	-2.6	19,
+				2	-1.5	0,
+				2	-1.5	19,
+				2	1.5	0,
+				2	1.5	19,
+				2.5	2.6	0,
+				2.5	2.6	19,
+				3	2.6	0,
+				3	2.6	19
+				]
+			}
+			Material {
+				diffuseColor 0.5 0.5 0.5
+				transparency 0.3
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,3,2,-1,0,1,3,-1,
+					2,5,4,-1,2,3,5,-1,
+					4,7,6,-1,4,5,7,-1,
+					6,9,8,-1,6,7,9,-1,
+					8,11,10,-1,8,9,11,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					1,5,3,-1,
+					1,7,5,-1,
+					1,9,7,-1,
+					1,11,9,-1
+				]
+			}
+		}
+
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation -4.5 5.3 2.5
+			}
+			Cube {
+				width	15
+				height	5.4
+				depth	1
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation -4.5 -5.3 2.5
+			}
+			Cube {
+				width	15
+				height	5.4
+				depth	1
+		    }
+		}
+
+	}
+}
+
+
+
+#KITZ
+Separator {
+	WWWAnchor
+	{
+		name "http://www.kitz.co.jp/"
+		Transform {
+			translation -110 62 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			Transform {
+				translation 0 0 5
+			}
+			Cube {
+				width	8.6
+				height	5
+				depth	10
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 0 7 1.75
+			}
+			Cube {
+				width	8.6
+				height	8
+				depth	3.5
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 0 0 9
+			}
+			Cylinder {
+				radius 3.25
+				height 4
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			Transform {
+				translation 0 5.7 3
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 2.5
+				height 4
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.3 0.7 0.2
+			}
+			Transform {
+				translation 0 5.7 3
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 2.25
+				height 8.5
+			}
+		}
+	}
+}
+
+
+
+
+#Fujitsu
+Separator {
+	Transform {
+		translation -117 119 0
+	}
+	WWWAnchor
+	{
+		name "http://www.fujitsu.co.jp/"
+		Separator {
+			Material {
+				diffuseColor 1 0.9 0.9
+			}
+			Transform {
+				translation 0 0 9.75
+			}
+			Cube {
+				width	20
+				height	16
+				depth	19.5
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 1 0.9 0.9
+			}
+			Transform {
+				translation 0 0 20.5
+			}
+			Cube {
+				width	17
+				height	4
+				depth	3
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			Transform {
+				translation 0 0 8.75
+			}
+			Cube {
+				width	22.4
+				height	4
+				depth	17.5
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.8 0.8
+			}
+			Transform {
+				translation -5 -13.25 1
+			}
+			Cube {
+				width	10
+				height	11
+				depth	2
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.8 0.8
+			}
+			Transform {
+				translation -5 -11.75 2.5
+			}
+			Cube {
+				width	10
+				height	7
+				depth	1
+		    }
+		}
+	}
+
+	WWWAnchor
+	{
+		name "http://www.nifty.com/dome/"
+		Separator {
+			Material {
+				diffuseColor 0.9 0.8 0.8
+			}
+			Transform {
+				translation -5 -18.5 1
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 5
+				height 2
+			}
+		}
+		Separator {
+			Transform {
+				translation -5 -18.5 2
+			}
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Sphere {
+				radius 2.6
+			}
+		}
+	}
+}
+
+
+
+
+#WBS
+Separator {
+	Transform {
+		translation 13 21 0
+	}
+	WWWAnchor
+	{
+		name "http://www.wbg35.com/"
+		Separator {
+			Material {
+				diffuseColor 1 0.9 0.9
+			}
+			Transform {
+				translation 1 -1 16
+			}
+			Cube {
+				width	13
+				height	15
+				depth	32
+		    }
+			Cube {
+				width	15
+				height	13
+				depth	32
+		    }
+		}
+		Separator {
+			Transform {
+				translation 1 -1 0
+			}
+			Coordinate3{
+				point	[
+				-6.5 	6.5	32,
+				-3		6.5	34,
+				3		6.5	34,
+				6.5		6.5	32,
+				-6.5	3	34,
+				-3		3	36,
+				3		3	36,
+				6.5		3	34,
+				-6.5	-3	34,
+				-3		-3	36,
+				3		-3	36,
+				6.5		-3	34,
+				-6.5	-6.5	32,
+				-3		-6.5	34,
+				3		-6.5	34,
+				6.5		-6.5	32
+				]
+			}
+
+			Material {
+				diffuseColor	[
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9
+				]
+
+				emissiveColor	[
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9
+				]
+			}
+
+			MaterialBinding	{
+				value PER_FACE
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					0,4,1,-1,
+					1,4,5,-1,
+					2,1,5,-1,
+					2,5,6,-1,
+					3,2,6,-1,
+					3,6,7,-1,
+					5,4,8,-1,
+					5,8,9,-1,
+					6,5,9,-1,
+					6,9,10,-1,
+					6,10,7,-1,
+					7,10,11,-1,
+					8,12,9,-1,
+					9,12,13,1,
+					9,13,10,-1,
+					10,13,14,-1,
+					10,14,11,-1,
+					11,14,15,-1
+				]
+			}
+		}
+	}
+	WWWAnchor
+	{
+		name "http://www.wbg35.com/"
+		Separator {
+			Material {
+				diffuseColor 1 0.9 0.9
+			}
+			Transform {
+				translation -7 -28 16
+			}
+			Cube {
+				width	13
+				height	15
+				depth	32
+		    }
+			Cube {
+				width	15
+				height	13
+				depth	32
+		    }
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				-6.5 	6.5	32,
+				-3		6.5	34,
+				3		6.5	34,
+				6.5		6.5	32,
+				-6.5	3	34,
+				-3		3	36,
+				3		3	36,
+				6.5		3	34,
+				-6.5	-3	34,
+				-3		-3	36,
+				3		-3	36,
+				6.5		-3	34,
+				-6.5	-6.5	32,
+				-3		-6.5	34,
+				3		-6.5	34,
+				6.5		-6.5	32
+				]
+			}
+ 
+			Transform {
+				translation -7 -28 0
+			}
+			Material {
+				diffuseColor	[
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9
+				]
+
+				emissiveColor	[
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9,
+				 0.9 0.9 0.9
+				]
+			}
+
+			MaterialBinding	{
+				value PER_FACE
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					0,4,1,-1,
+					1,4,5,-1,
+					2,1,5,-1,
+					2,5,6,-1,
+					3,2,6,-1,
+					3,6,7,-1,
+					5,4,8,-1,
+					5,8,9,-1,
+					6,5,9,-1,
+					6,9,10,-1,
+					6,10,7,-1,
+					7,10,11,-1,
+					8,12,9,-1,
+					9,12,13,1,
+					9,13,10,-1,
+					10,13,14,-1,
+					10,14,11,-1,
+					11,14,15,-1
+				]
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 1 -14 2.5
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 4.0
+				height 4
+			}
+			Cylinder {
+				radius 3.8
+				height 7
+			}
+			Cylinder {
+				radius 3.6
+				height 10
+			}
+			Cylinder {
+				radius 3.4
+				height 13
+			}
+		}
+
+
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 1 -14 1.5
+			}
+			Cube {
+				width 13.5
+				height 8.5
+				depth 3
+			}
+		}
+
+
+#MTGMTG
+#		Separator {
+#		    Texture2 { filename "07_map-1.gif" }
+#			Material {
+#				diffuseColor 1 1 1
+#			}
+#			Rotation {
+#				rotation 0 0 1 1.5708
+#			}
+#			Transform {
+#				translation -11 7 1.5
+#			}
+#			Cube {
+#				width 105
+#				height 56
+#				depth 2
+#			}
+#		}
+
+	}
+
+	Separator {
+		Material {
+			diffuseColor 0.9 0.8 0.8
+		}
+		Transform {
+			translation 6 13 1
+		}
+		Rotation {
+			rotation 1 0 0 1.5708
+		}
+		Cylinder {
+			radius 5
+			height 2
+		}
+	}
+
+	Separator {
+		Transform {
+			translation 6 13 2
+		}
+		Material {
+			diffuseColor 0.9 0.9 0.9
+		}
+		Sphere {
+			radius 2.6
+		}
+	}
+}
+
+#TOKYOGAS
+Separator {
+	WWWAnchor
+	{
+		name "http://www.tokyo-gas.co.jp/"
+		Transform {
+			translation -113 28 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.8 0.8 0.8
+			}
+			Transform {
+				translation 0 0 0.5
+			}
+			Cube {
+				width	19
+				height	11
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 1.5
+			}
+			Cube {
+				width	19.5
+				height	13
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 2.5
+			}
+			Cube {
+				width	19.5
+				height	12
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 3.5
+			}
+			Cube {
+				width	19.5
+				height	11
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 4.5
+			}
+			Cube {
+				width	19.5
+				height	10
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 5.5
+			}
+			Cube {
+				width	19.5
+				height	9
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 6.5
+			}
+			Cube {
+				width	19.5
+				height	8
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 7.5
+			}
+			Cube {
+				width	19.5
+				height	7
+				depth	1
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.7 0.9
+			}
+			Transform {
+				translation 0 0 8.5
+			}
+			Cube {
+				width	19.5
+				height	6
+				depth	1
+		    }
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				20		18	15,
+				0		18	15,
+				0		0	15,
+				20		0	15,
+				21.7	6	15,
+				21.7	12	15,
+				20		18	0,
+				0		18	0,
+				0		0	0,
+				20		0	0,
+				21.7	6	0,
+				21.7	12	0,
+				21.7	6	6,
+				21.7	12	6,
+				10		10	16.6,
+				0		10	16.6,
+				0		8	16.6,
+				10		8	16.6,
+				10		12	16,
+				0		12	16,
+				0		6	16,
+				10		6	16,
+				10		12	15,
+				0		12	15,
+				0		6	15,
+				10		6	15,
+				]
+			}
+			Transform {
+				translation -15 -33 0
+			}
+			Material {
+				diffuseColor	[0.8 0.8 0.9]
+			}
+			IndexedFaceSet{
+				coordIndex	[0,6,7,-1,	0,7,1,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[1,7,8,-1,	1,8,2,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[2,8,9,-1,	2,9,3,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					3,9,10,-1,
+					3,10,4,-1,
+					4,12,13,-1,
+					4,13,5,-1,
+					5,11,6,-1,
+					5,6,0,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					19,15,14,-1,
+					19,14,18,-1,
+					15,16,17,-1,
+					15,17,14,-1,
+					16,20,21,-1,
+					16,21,17,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					22,18,14,-1,
+					22,14,17,-1,
+					22,17,21,-1,
+					22,21,25,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					23,15,19,-1,
+					23,16,15,-1,
+					23,20,16,-1,
+					23,24,20,-1,
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[18,22,23,-1,	18,23,19,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[20,24,25,-1,	20,25,21,-1]
+			}
+
+
+			IndexedFaceSet{
+				coordIndex	[0,1,23,-1,	0,23,5,-1]
+			}
+			IndexedFaceSet{
+				coordIndex	[4,24,2,-1,	4,2,3,-1]
+			}
+		}
+	}
+}
+
+
+#SUMITOMO
+Separator {
+	WWWAnchor
+	{
+		name "http://www.scec.co.jp/index2.html"
+		Transform {
+			translation -49 202 0
+		}
+		Separator {
+			Material {
+				diffuseColor 1 0.9 0.9
+			}
+			Transform {
+				translation 0 0 2
+			}
+			Cube {
+				width	15.5
+				height	9
+				depth	4
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 1 0.9 0.9
+			}
+			Transform {
+				translation 0 0 2.5
+			}
+			Cube {
+				width	13
+				height	11
+				depth	5
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+			Transform {
+				translation 0 0 13.5
+			}
+			Cube {
+				width	13
+				height	11
+				depth	17
+		    }
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+				6.5		-5.5	22,
+				-6.5	-5.5	22,
+				6.5		-3.7	22,
+				-6.5	-3.7	22,
+				6.5		-3.7	24,
+				-6.5	-3.7	24,
+				6.5		-2		24.3,
+				-6.5	-2		24.3,
+				6.5		0		24.5,
+				-6.5	0		24.5,
+				6.5		2		24.3,
+				-6.5	2		24.3,
+				6.5		3.7		24,
+				-6.5	3.7		24,
+				6.5		3.7		22,
+				-6.5	3.7		22,
+				6.5		5.5		22,
+				-6.5	5.5		22,
+
+
+				5.6		-4.6	22,
+				-5.6	-4.6	22,
+				5.6		-4.6	24.4,
+				-5.6	-4.6	24.4,
+				5.6		-2.3	25.2,
+				-5.6	-2.3	25.2,
+				5.6		0		25.6,
+				-5.6	0		25.6,
+				5.6		2.3		25.2,
+				-5.6	2.3		25.2,
+				5.6		4.6		24.4,
+				-5.6	4.6		24.4,
+				5.6		4.6		22,
+				-5.6	4.6		22,
+
+
+				4.7		-5.5	22,
+				-4.7	-5.5	22,
+				4.7		-5.5	24.8,
+				-4.7	-5.5	24.8,
+				4.7		-3.3	25.6,
+				-4.7	-3.3	25.6,
+				4.7		0		26.2,
+				-4.7	0		26.2,
+				4.7		3.3		25.6,
+				-4.7	3.3		25.6,
+				4.7		5.5		24.8,
+				-4.7	5.5		24.8,
+				4.7		5.5		22,
+				-4.7	5.5		22
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 0.9 0.9
+			}
+
+#A
+			IndexedFaceSet{
+				coordIndex	[
+					 2,5, 3,-1, 2,4, 5,-1,
+					 4,7, 5,-1, 4,6, 7,-1,
+					 6,9, 7,-1, 6,8, 9,-1,
+					 8,11, 9,-1, 8,10,11,-1,
+					10,13,11,-1,10,12,13,-1,
+					12,15,13,-1,12,14,15,-1
+				]
+			}
+
+
+			IndexedFaceSet{
+				coordIndex	[
+					 15,11,13,-1,
+					 15, 9,11,-1,
+					 15, 7, 9,-1,
+					 15, 5, 7,-1,
+					 15, 3, 5,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					  2, 6, 4,-1,
+					  2, 8, 6,-1,
+					  2,10, 8,-1,
+					  2,12,10,-1,
+					  2,14,12,-1
+				]
+			}
+
+
+
+
+
+#B
+
+			IndexedFaceSet{
+				coordIndex	[
+					18,21,19,-1,18,20,21,-1,
+					20,23,21,-1,20,22,23,-1,
+					22,25,23,-1,22,24,25,-1,
+					24,27,25,-1,24,26,27,-1,
+					26,29,27,-1,26,28,29,-1,
+					28,31,29,-1,28,30,31,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					 31,27,29,-1,
+					 31,25,27,-1,
+					 31,23,25,-1,
+					 31,21,23,-1,
+					 31,19,21,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					 18,22,20,-1,
+					 18,24,22,-1,
+					 18,26,24,-1,
+					 18,28,26,-1,
+					 18,30,28,-1
+				]
+			}
+
+
+#C
+
+			IndexedFaceSet{
+				coordIndex	[
+					32,35,33,-1,32,34,35,-1,
+					34,37,35,-1,34,36,37,-1,
+					36,39,37,-1,36,38,39,-1,
+					38,41,39,-1,38,40,41,-1,
+					40,43,41,-1,40,42,43,-1,
+					42,45,43,-1,42,44,45,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					 45,41,43,-1,
+					 45,39,41,-1,
+					 45,37,39,-1,
+					 45,35,37,-1,
+					 45,33,35,-1
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					 32,36,34,-1,
+					 32,38,36,-1,
+					 32,40,38,-1,
+					 32,42,40,-1,
+					 32,44,42,-1
+				]
+			}
+		}
+
+
+
+
+
+		Separator {
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			Transform {
+				translation 0 2.7 26.2
+			}
+			Rotation {
+				rotation 0 1 0 1.5708
+			}
+			Cylinder {
+				radius 2.7
+				height 5.4
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			Transform {
+				translation 0 2.7 26.2
+			}
+			Rotation {
+				rotation 0 0 1 1.5708
+			}
+			Cylinder {
+				radius 2.7
+				height 5.4
+			}
+
+		}
+
+
+
+
+		Separator {
+			Transform {
+				translation 0 2.7 26.2
+			}
+			Coordinate3{
+				point	[
+				0 0 3.75,
+				1.95	0	3.25,
+				1.4		-1.4	3.25,
+				0	-1.95	3.25,
+				-1.4	-1.4	3.25,
+				-1.95	0	3.25,
+				-1.4	1.4	3.25,
+				0	1.95	3.25,
+				1.4	1.4	3.25,
+				2.7 0 2.7,
+				1.95 -1.95 2.7,
+				0 -2.7 2.7,
+				-1.95 -1.95 2.7,
+				-2.7 0 2.7,
+				-1.95 1.95 2.7,
+				0 2.7 2.7,
+				1.95 1.95 2.7,
+
+				2.6 -2.6 1.5,
+				-2.6 -2.6 1.5,
+				-2.6 2.6 1.5,
+				2.6 2.6 1.5
+				]
+			}
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,2,1,-1,
+					0,3,2,-1,
+					0,4,3,-1,
+					0,5,4,-1,
+					0,6,5,-1,
+					0,7,6,-1,
+					0,8,7,-1,
+					0,1,8,-1,
+					1,10, 9,-1,10,1,2,-1,
+					2,11,10,-1,11,2,3,-1,
+					3,12,11,-1,12,3,4,-1,
+					4,13,12,-1,13,4,5,-1,
+					5,14,13,-1,14,5,6,-1,
+					6,15,14,-1,15,6,7,-1,
+					7,16,15,-1,16,7,8,-1,
+					8, 9,16,-1, 9,8,1,-1,
+
+					 9,10,17,-1,10,11,17,-1,
+					11,12,18,-1,12,13,18,-1,
+					13,14,19,-1,19,14,15,-1,
+					15,16,20,-1,20,16, 9,-1
+				]
+			}
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			Transform {
+				translation 0 2.75 30.3
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 0.1
+				height 2
+			}
+
+		}
+
+	}
+}
+
+#APA Hotel
+Separator {
+	WWWAnchor
+	{
+		name "http://www.tokyobay-makuhari.com/"
+		Transform {
+			translation 66 -136 0
+		}
+		Separator {
+			Coordinate3{
+				point	[
+					0.6	0		0,
+					8.2	13		0,
+					7.6	13.6	0,
+					4.6	13.6	0,
+					4	13		0,
+					2.2	13		0,
+					1.8	12.6	0,
+					1.4	12.6	0,
+					1	13		0,
+					0.6	13		0,
+					0.2	12.6	0,
+					-0.2	12.6	0,
+					-0.6	13		0,
+					-1		13		0,
+					-1.4	12.6	0,
+					-1.8	12.6	0,
+					-2.2	13		0,
+					-4		13		0,
+					-4.6	13.6	0,
+					-7.6	13.6	0,
+					-8.2	13		0,
+
+					-0.6	0		0,
+
+					0.6	0 53,
+					8.2 13 53,
+					7.6	13.6	53,
+					4.6	13.6	53,
+					4	13	53,
+					2.2	13	53,
+					1.8	12.6	53,
+					1.4	12.6	53,
+					1	13	53,
+					0.6	13	53,
+					0.2	12.6	53,
+					-0.2	12.6	53,
+					-0.6	13	53,
+					-1	13	53,
+					-1.4	12.6	53,
+					-1.8	12.6	53,
+					-2.2	13	53,
+					-4	13	53,
+					-4.6	13.6	53,
+					-7.6	13.6	53,
+					-8.2 13 53,
+					-0.6	0 53,
+
+					1.18	1 51,
+					1.18	1 48,
+					2.41	3.1 48,
+
+
+					-1.18	1 51,
+					-1.18	1 48,
+					-2.41	3.1 48,
+
+					0	10 50,
+
+				]
+			}
+			Material {
+				diffuseColor	[
+				 0.6 0.6 0.8,
+				]
+			}
+#			IndexedFaceSet{coordIndex	[0,1,23,22,-1]}
+
+#sankakumado
+			IndexedFaceSet{coordIndex	
+					[
+						0,1,46,45,-1,
+						1,23,46,-1,
+						23,22,44,46,-1,
+						0,45,44,22,-1,
+					]
+			}
+			IndexedFaceSet{coordIndex	[1,2,24,23,-1]}
+			IndexedFaceSet{coordIndex	[23,24,25,26,-1]}
+			IndexedFaceSet{coordIndex	[2,3,25,24,-1]}
+			IndexedFaceSet{coordIndex	[3,4,26,25,-1]}
+			IndexedFaceSet{coordIndex	[4,5,27,26,-1]}
+			IndexedFaceSet{coordIndex	[5,6,28,27,-1]}
+			IndexedFaceSet{coordIndex	[6,7,29,28,-1]}
+			IndexedFaceSet{coordIndex	[7,8,30,29,-1]}
+			IndexedFaceSet{coordIndex	[8,9,31,30,-1]}
+			IndexedFaceSet{coordIndex	[9,10,32,31,-1]}
+			IndexedFaceSet{coordIndex	[10,11,33,32,-1]}
+			IndexedFaceSet{coordIndex	[11,12,34,33,-1]}
+			IndexedFaceSet{coordIndex	[12,13,35,34,-1]}
+			IndexedFaceSet{coordIndex	[13,14,36,35,-1]}
+			IndexedFaceSet{coordIndex	[14,15,37,36,-1]}
+			IndexedFaceSet{coordIndex	[15,16,38,37,-1]}
+			IndexedFaceSet{coordIndex	[16,17,39,38,-1]}
+
+			IndexedFaceSet{coordIndex	[39,40,41,42,-1]}
+
+			IndexedFaceSet{coordIndex	[17,18,40,39,-1]}
+			IndexedFaceSet{coordIndex	[18,19,41,40,-1]}
+			IndexedFaceSet{coordIndex	[19,20,42,41,-1]}
+#			IndexedFaceSet{coordIndex	[20,21,43,42,-1]}
+#sankakumado
+			IndexedFaceSet{coordIndex	
+					[
+						20,21,48,49,-1,
+						21,43,47,48,-1,
+						47,43,42,49,-1,
+						20,49,42,-1,
+					]
+			}
+			IndexedFaceSet{coordIndex	[21,0,22,43,-1]}
+			IndexedFaceSet{coordIndex	[22,23,42,-1,22,42,43,-1]}
+
+			Material {
+				diffuseColor	[
+				 1 0 0
+				]
+			}
+			IndexedFaceSet{coordIndex	[22,50,0,-1]}
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+					4	13		40,
+					3	14		40,
+					0.5	14		40,
+					0	14.5	40,
+					-0.5	14	40,
+					-3	14		40,
+					-4	13		40,
+
+					4	13		50,
+					3	14		50,
+					.5	14		50,
+					0	14.5	50,
+					-.5	14		50,
+					-3	14		50,
+					-4	13		50
+				]
+			}
+			Material {
+				diffuseColor	[
+				 0.6 0.6 0.8,
+				]
+			}
+			IndexedFaceSet{coordIndex	[0,1, 8, 7,-1]}
+			IndexedFaceSet{coordIndex	[1,2, 9, 8,-1]}
+			IndexedFaceSet{coordIndex	[2,3, 10, 9,-1]}
+			IndexedFaceSet{coordIndex	[3,4, 11,10,-1]}
+			IndexedFaceSet{coordIndex	[4,5, 12,11,-1]}
+			IndexedFaceSet{coordIndex	[5,6, 13,12,-1]}
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+					18.1	30		0,
+					24.55	42		0,
+					-24.55	42		0,
+					-18.1	30		0,
+					18.1	30		2,
+					24.55	42		2,
+					-24.55	42		2,
+					-18.1	30		2,
+				]
+			}
+			Material {
+				diffuseColor	[
+				 0.6 0.6 0.8,
+				]
+			}
+			IndexedFaceSet{coordIndex
+				[
+					0,1,5,4,-1,
+					1,2,6,5,-1,
+					2,3,7,6,-1,
+					3,0,4,7,-1,
+					4,5,6,7,-1,
+				]}
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+					15	30		1,
+					18.525	36	1,
+					15	42	1,
+					-15	42	1,
+					-18.525	36	1,
+					-15	30		1,
+					15	30		3,
+					18.525	36	3,
+					15	42	3,
+					-15	42	3,
+					-18.525	36	3,
+					-15	30	3,
+				]
+			}
+			Material {
+				diffuseColor	[0.6 0.6 0.8]
+			}
+			IndexedFaceSet{coordIndex
+				[
+					0,1,7,6,-1,
+					1,2,8,7,-1,
+					2,3,9,8,-1,
+					3,4,10,9,-1,
+					4,5,11,10,-1,
+					5,0,6,11,-1,
+					6,7,8,9,10,11,-1,
+				]
+			}
+		}
+
+
+
+
+		Separator {
+			Coordinate3{
+				point	[
+					13	30		2,
+					16.525	36	2,
+					13	42	2,
+					-13	42	2,
+					-16.525	36	2,
+					-13	30		2,
+					13	30		3.5,
+					16.525	36	3.5,
+					13	42	3.5,
+					-13	42	3.5,
+					-16.525	36	3.5,
+					-13	30	3.5,
+				]
+			}
+			Material {
+				diffuseColor	[0.6 0.6 0.8]
+			}
+			IndexedFaceSet{coordIndex
+				[
+					0,1,7,6,-1,
+					1,2,8,7,-1,
+					2,3,9,8,-1,
+					3,4,10,9,-1,
+					4,5,11,10,-1,
+					5,0,6,11,-1,
+					6,7,8,9,10,11,-1,
+				]
+			}
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+					11	30		2,
+					14.525	36	2,
+					11	42	2,
+					-11	42	2,
+					-14.525	36	2,
+					-11	30		2,
+					11	30		4,
+					14.525	36	4,
+					11	42	4,
+					-11	42	4,
+					-14.525	36	4,
+					-11	30	4,
+				]
+			}
+			Material {
+				diffuseColor	[0.6 0.6 0.8]
+			}
+			IndexedFaceSet{coordIndex
+				[
+					0,1,7,6,-1,
+					1,2,8,7,-1,
+					2,3,9,8,-1,
+					3,4,10,9,-1,
+					4,5,11,10,-1,
+					5,0,6,11,-1,
+					6,7,8,9,10,11,-1,
+				]
+			}
+		}
+
+
+
+		Separator {
+			Coordinate3{
+				point	[
+					9	30		2,
+					12.525	36	2,
+					9	42	2,
+					-9	42	2,
+					-12.525	36	2,
+					-9	30		2,
+					9	30		4.5,
+					12.525	36	4.5,
+					9	42	4.5,
+					-9	42	4.5,
+					-12.525	36	4.5,
+					-9	30	4.5,
+				]
+			}
+			Material {
+				diffuseColor	[0.6 0.6 0.8]
+			}
+			IndexedFaceSet{coordIndex
+				[
+					0,1,7,6,-1,
+					1,2,8,7,-1,
+					2,3,9,8,-1,
+					3,4,10,9,-1,
+					4,5,11,10,-1,
+					5,0,6,11,-1,
+					6,7,8,9,10,11,-1,
+				]
+			}
+		}
+
+
+	}
+}
+
+
+#NEWOTANI
+Separator {
+	WWWAnchor
+	{
+		name "http://www.newotani.co.jp/"
+		Transform {
+			translation 57 -67 0
+		}
+		Rotation {
+			rotation 0 0 1 0.7854
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 10 1.5 12.5
+			}
+			Cube {
+				width	14
+				height	3
+				depth	25
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 1.5 10 12.5
+			}
+			Cube {
+				width	3
+				height	14
+				depth	25
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 13 4 12.5
+			}
+			Cube {
+				width	4
+				height	2
+				depth	25
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 4 13 12.5
+			}
+			Cube {
+				width	2
+				height	4
+				depth	25
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 5.5 5.5 24.25
+			}
+			Cube {
+				width	5
+				height	5
+				depth	1.5
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 3 3 12.5
+			}
+			Rotation {
+				rotation 0 0 1 0.7854
+			}
+			Cube {
+				width	4.24264
+				height	4.24264
+				depth	25
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 8 8 23
+			}
+			Rotation {
+				rotation 0 0 1 0.7854
+			}
+			Cube {
+				width	2
+				height	9
+				depth	2
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation 8 8 1
+			}
+			Rotation {
+				rotation 0 0 1 0.7854
+			}
+			Cube {
+				width	8
+				height	11
+				depth	2
+		    }
+		}
+	}
+}
+
+
+#NEWOTANIPool
+Separator {
+	WWWAnchor
+	{
+		name "http://www.newotani.co.jp/"
+		Transform {
+			translation 70 -71 0
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation -1.5 -0.5 1.75
+			}
+			Cube {
+				width	13
+				height	3
+				depth	3.5
+			}
+
+
+			Separator {
+				Coordinate3{
+					point	[
+					5.5		-1.5	3.9,
+					5.5		0.4		3.1,
+					5.5		1.5		1.75,
+
+					-5.5	-1.5	3.9,
+					-5.5	0.4		3.1,
+					-5.5	1.5		1.75,
+
+					5.5		-1.5	1.75,
+					-5.5	-1.5	1.75
+					]
+				}
+				Material {
+					diffuseColor 0 1 1
+					transparency 0.3
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,3,4,-1,0,4,1,-1,
+						1,4,5,-1,1,5,2,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						6,0,1,-1,6,1,2,-1,
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						7,4,3,-1,7,5,4,-1,
+					]
+				}
+			}
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 0.6
+			}
+			Transform {
+				translation -8 -7 3
+			}
+			Cube {
+				width	26
+				height	10
+				depth	6
+			}
+			Separator {
+				Coordinate3{
+					point	[
+					-6.5	-5		5,
+					-6		-2.5	6.2,
+					-5.7	0		6.5,
+					-6		2.5		6.2,
+					-6.5	5		5,
+
+					5.5		-5		5,
+					5		-2.5	6.2,
+					4.7		0		6.5,
+					5		2.5		6.2,
+					5.5		5		5
+					]
+				}
+				Material {
+					diffuseColor 1 1 1
+				}
+				Transform {
+					translation -6.5 0 -2
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,5,6,-1,0,6,1,-1,
+						1,6,7,-1,1,7,2,-1,
+						2,7,8,-1,2,8,3,-1,
+						3,8,9,-1,3,9,4,-1,
+					]
+				}
+
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,2,-1,0,2,3,-1,0,3,4,-1
+					]
+				}
+
+				IndexedFaceSet{
+					coordIndex	[
+						5,9,8,-1,5,8,7,-1,5,7,6,-1
+					]
+				}
+			}
+
+
+
+			Separator {
+				Coordinate3{
+					point	[
+					-6.5	-5		5,
+					-6		-2.5	6.2,
+					-5.7	0		6.5,
+					-6		2.5		6.2,
+					-6.5	5		5,
+
+					6.5		-5		5,
+					6		-2.5	6.2,
+					5.7		0		6.5,
+					6		2.5		6.2,
+					6.5		5		5
+					]
+				}
+				Material {
+					diffuseColor 1 1 1
+				}
+				Transform {
+					translation 6.5 0 -2
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,5,6,-1,0,6,1,-1,
+						1,6,7,-1,1,7,2,-1,
+						2,7,8,-1,2,8,3,-1,
+						3,8,9,-1,3,9,4,-1,
+					]
+				}
+
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,2,-1,0,2,3,-1,0,3,4,-1
+					]
+				}
+
+				IndexedFaceSet{
+					coordIndex	[
+						5,9,8,-1,5,8,7,-1,5,7,6,-1
+					]
+				}
+			}
+
+		}
+	}
+}
+
+
+#FRANCS
+Separator {
+	WWWAnchor
+	{
+		name "http://www.francs.co.jp/"
+		Transform {
+			translation 92 -35 0
+		}
+		Separator {
+			Material {
+				diffuseColor	[1.0 1.0 0.8]
+			}
+			Transform {
+				translation 0 3 7.22
+			}
+			Cube {
+				width	6
+				height	2
+				depth	14.4
+		    }
+	    }
+		Separator {
+			Coordinate3{
+				point	[
+					9.2	0	0,
+					9.2	1	0,
+					10	1	0,
+					10	3	0,
+					-10	3	0,
+					-10	1	0,
+					-9.2	1	0,
+					-9.2	0	0,
+
+					9.2	0	13,
+					9.2	1	13,
+					10	1	13,
+					10	3	13,
+					-10	3	13,
+					-10	1	13,
+					-9.2	1	13,
+					-9.2	0	13,
+
+					8.8	0.2	14.5,
+					8.8	1.2	14.5,
+					9.6	1.2	14.5,
+					9.6	2.8	14.5,
+					-9.6	2.8	14.5,
+					-9.6	1.2	14.5,
+					-8.8	1.2	14.5,
+					-8.8	0.2	14.5
+				]
+			}
+			Material {
+				diffuseColor	[1.0 1.0 0.8]
+			}
+			IndexedFaceSet{coordIndex	[0,1,9,8,-1]}
+			IndexedFaceSet{coordIndex	[1,2,10,9,-1]}
+			IndexedFaceSet{coordIndex	[2,3,11,10,-1]}
+			IndexedFaceSet{coordIndex	[3,4,12,11,-1]}
+			IndexedFaceSet{coordIndex	[4,5,13,12,-1]}
+			IndexedFaceSet{coordIndex	[5,6,14,13,-1]}
+			IndexedFaceSet{coordIndex	[6,7,15,14,-1]}
+			IndexedFaceSet{coordIndex	[7,0,8,15,-1]}
+
+			Material {
+				diffuseColor	[0.2 0.8 0.2]
+			}
+
+			IndexedFaceSet{coordIndex	[8,9,17,16,-1]}
+			IndexedFaceSet{coordIndex	[9,10,18,17,-1]}
+			IndexedFaceSet{coordIndex	[10,11,19,18,-1]}
+			IndexedFaceSet{coordIndex	[11,12,20,19,-1]}
+			IndexedFaceSet{coordIndex	[12,13,21,20,-1]}
+			IndexedFaceSet{coordIndex	[13,14,22,21,-1]}
+			IndexedFaceSet{coordIndex	[14,15,23,22,-1]}
+			IndexedFaceSet{coordIndex	[15,8,16,23,-1]}
+			IndexedFaceSet{coordIndex	[18,19,20,21,-1]}
+			IndexedFaceSet{coordIndex	[16,17,22,23,-1]}
+		}
+
+
+
+		Separator {
+			Coordinate3{
+				point	[
+					-3	0.1	12,
+					-2	-0.1	12,
+					-1	-0.2	12,
+					1	-0.2	12,
+					2	-0.1	12,
+					3	0.1	12,
+
+					-3	0.1	14,
+					-2	-0.1	14,
+					-1	-0.2	14,
+					1	-0.2	14,
+					2	-0.1	14,
+					3	0.1	14,
+				]
+			}
+			Material {
+				diffuseColor	[1.0 1.0 0.8]
+			}
+			IndexedFaceSet{coordIndex	[0,1,7,6,-1,
+										1,2,8,7,-1,
+										2,3,9,8,-1,
+										3,4,10,9,-1,
+										4,5,11,10,-1]}
+
+			Material {
+				diffuseColor	[0.2 0.8 0.2]
+			}
+			IndexedFaceSet{coordIndex	[6,7,8,9,10,11,-1]}
+
+		}
+	}
+
+}
+
+
+#Manhattan
+Separator {
+	WWWAnchor
+	{
+		name "http://www.the-manhattan.co.jp/"
+		Transform {
+			translation 122 -34 0
+		}
+		Rotation {
+			rotation 0 0 1 -0.12
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 0 5 8.75
+			}
+			Cube {
+				width	4
+				height	10
+				depth	17.5
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation -3 5 8.5
+			}
+			Cube {
+				width	1
+				height	10
+				depth	17
+		    }
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+					2	0	17.5,
+					2	0	21,
+					2	3	20.7,
+					2	6	20,
+					2	10	17.5,
+
+					-2	0	17.5,
+					-2	0	21,
+					-2	3	20.7,
+					-2	6	20,
+					-2	10	17.5,
+				]
+			}
+			Material {
+				diffuseColor	[
+				 1 1 1,
+				]
+			}
+			IndexedFaceSet{coordIndex[0,1,5,-1,1,6,5,-1,1,2,6,-1,2,7,6,-1,2,3,7,-1,3,8,7,-1,3,4,8,-1,4,9,8,-1]}
+			IndexedFaceSet{coordIndex	[0,2,1,-1,0,3,2,-1,0,4,3,-1]}
+			IndexedFaceSet{coordIndex	[5,6,7,-1,5,7,8,-1,5,8,9,-1]}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 0 0 9.5
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 3.75
+				height 19
+			}
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.3 1 1
+			}
+			Transform {
+				translation 0 0 20
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 2
+				height 2
+			}
+		}
+		Separator {
+			Material {
+				diffuseColor 1 1 0.3
+			}
+			Transform {
+				translation 0 0 22.75
+			}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 0.2
+				height 3.5
+			}
+		}
+	}
+}
+
+
+
+#OVTA
+Separator {
+	WWWAnchor
+	{
+		name "http://www.ovta.or.jp/"
+		Transform {
+			translation 115 229 0
+		}
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 1
+			}
+			Transform {
+				translation -3 0 2.5
+			}
+			Cube {
+				width	18
+				height	7
+				depth	5
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 1
+			}
+			Transform {
+				translation 0 -4.75 10.5
+			}
+			Cube {
+				width	12
+				height	2.6
+				depth	21
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 1
+			}
+			Transform {
+				translation 0 -6.75 8
+			}
+			Cube {
+				width	12
+				height	1.5
+				depth	6
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 1
+			}
+			Transform {
+				translation 0 -8.25 2.5
+			}
+			Cube {
+				width	12
+				height	6.5
+				depth	5
+		    }
+		}
+
+
+		Separator {
+			Material {
+				diffuseColor 0.9 0.9 1
+			}
+			Transform {
+				translation 0 -6.75 14
+			}
+			Cube {
+				width	9
+				height	1.5
+				depth	6
+		    }
+		}
+
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			Transform {
+				translation 4.8 -6.15 15
+			}
+			Cube {
+				width	0.6
+				height	0.3
+				depth	8
+		    }
+		}
+		Separator {
+			Material {
+				diffuseColor 0.4 0.4 0.4
+			}
+			Transform {
+				translation -4.8 -6.15 15
+			}
+			Cube {
+				width	0.6
+				height	0.3
+				depth	8
+		    }
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+					4.5	-6	17,
+					4.5	-6	18.5,
+					4.5	-7.5	17,
+					-4.5	-6	18.5,
+					-4.5	-7.5	17,
+					-4.5	-6	17,
+				]
+			}
+			Material {
+				diffuseColor	[
+				 0.9 0.9 1.0,
+				]
+			}
+			IndexedFaceSet{coordIndex	[1,3,2,-1,3,4,2,-1]}
+			IndexedFaceSet{coordIndex	[0,1,2,-1]}
+			IndexedFaceSet{coordIndex	[3,5,4,-1]}
+		}
+	}
+}
+
+
+
+#Springs
+Separator{
+	WWWAnchor
+	{
+		name "http://tabi.joy.ne.jp/Springs/"
+		Transform {
+			translation 102 118 0
+		}
+		Separator {
+			Coordinate3{
+				point	[
+					2.6	-8	0,
+					2.6	8	0,
+					-2.6	8	0,
+					-2.6	-8	0,
+
+					2.6	-8	14.5,
+					2.6	8	14.5,
+					-2.6	8	14.5,
+					-2.6	-8	14.5,
+
+					0	-8	16.5,
+					0	8	16.5
+				]
+			}
+			Material {
+				diffuseColor	[
+				 1.0 1.0 1.0,
+				]
+			}
+			IndexedFaceSet{coordIndex	[0,1,4,-1,1,5,4,-1]}
+			IndexedFaceSet{coordIndex	[1,2,5,-1,2,6,5,-1]}
+			IndexedFaceSet{coordIndex	[2,3,6,-1,3,7,6,-1]}
+			IndexedFaceSet{coordIndex	[3,0,7,-1,0,4,7,-1]}
+
+			IndexedFaceSet{coordIndex	[8,7,4,-1,9,5,6,-1]}
+			IndexedFaceSet{coordIndex	[4,5,8,-1,5,9,8,-1]}
+			IndexedFaceSet{coordIndex	[6,7,9,-1,7,8,9,-1]}
+		}
+
+		Separator {
+			Transform {
+				translation 0 4 0
+			}
+			Coordinate3{
+				point	[
+					4		-16		12,
+					16.5	-32.5	12,
+					17.5	-32.5	12,
+					17.5	-24.7	12,
+					11		-16		12,
+					4		-16		0,
+					16.5	-32.5	0,
+					17.5	-32.5	0,
+					17.5	-24.7	0,
+					11		-16		0,
+					4	-32.5	0,
+					4		-16		4,
+					16.5	-32.5	4,
+					4	-32.5	4
+				]
+			}
+			Material {diffuseColor	[1.0 1.0 1.0]}
+			IndexedFaceSet{coordIndex	[0,5,6,-1,0,6,1,-1]}
+			IndexedFaceSet{coordIndex	[1,6,7,-1,1,7,2,-1]}
+			IndexedFaceSet{coordIndex	[2,7,8,-1,2,8,3,-1]}
+			IndexedFaceSet{coordIndex	[3,8,9,-1,3,9,4,-1]}
+			IndexedFaceSet{coordIndex	[4,9,5,-1,4,5,0,-1]}
+
+			IndexedFaceSet{coordIndex	[0,1,2,-1,0,2,3,-1,0,3,4,-1]}
+
+			IndexedFaceSet{coordIndex	[5,13,11,-1,5,10,13,-1]}
+			IndexedFaceSet{coordIndex	[10,12,13,-1,10,6,12,-1]}
+			Separator {
+				Material {diffuseColor	[0.4 0.8 0.2]}
+				IndexedFaceSet{coordIndex	[11,13,12,-1]}
+			}
+		}
+	}
+}
+
+
+
+#PCNET
+Separator{
+	WWWAnchor
+	{
+		name "http://used.prins.co.jp/shop/makuhari/"
+		Transform {
+			translation 75 97 1
+		}
+		Separator {
+			Material {diffuseColor	[0.9 0.9 0.9]}
+			Cube {
+				width	6
+				height	6
+				depth	2
+		    }
+		}
+	}
+}
+
+
+#GreenTower
+Separator{
+	WWWAnchor
+	{
+		name "http://www.greentower.co.jp/"
+		Transform {
+			translation 79 -24 0
+		}
+		Material {
+			diffuseColor	[
+			 1.0 1.0 1.0,
+			]
+		}
+		Separator {
+			Transform {
+				translation 23 2.5 2.5
+			}
+			Cube {
+				width	8.3
+				height	5.8
+				depth	5
+		    }
+		}
+		Separator {
+			Transform {
+				translation -2.8 2.5 2
+			}
+			Cube {
+				width	5
+				height	5.5
+				depth	4
+		    }
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+					16	3.5	20,
+					0.5	3.5	20,
+					0	3.0	20,
+					0	2.5	20,
+					0.5	2.0	20,
+					1	2.0	20,
+					3	0	20,
+					18	0	20,
+					18.5	0.5	20,
+					18.5	1.0	20,
+					18	1.5	20,
+					17.5	1.5	20,
+					16	3.5	0,
+					0.5	3.5	0,
+					0	3.0	0,
+					0	2.5	0,
+					0.5	2.0	0,
+					1	2.0	0,
+					3	0	0,
+					18	0	0,
+					18.5	0.5	0,
+					18.5	1.0	0,
+					18	1.5	0,
+					17.5	1.5	0,
+				]
+			}
+			IndexedFaceSet{coordIndex
+				[
+					0,12,13,-1,0,13,1,-1,
+					1,13,14,-1,1,14,2,-1,
+					2,14,15,-1,2,15,3,-1,
+					3,15,16,-1,3,16,4,-1,
+					4,16,17,-1,4,17,5,-1,
+					5,17,18,-1,5,18,6,-1
+				]
+			}
+			IndexedFaceSet{coordIndex
+				[
+					6,18,19,-1,6,19,7,-1,
+					7,19,20,-1,7,20,8,-1,
+					8,20,21,-1,8,21,9,-1,
+					9,21,22,-1,9,22,10,-1,
+					10,22,23,-1,10,23,11,-1,
+					11,23,12,-1,11,12,0,-1
+				]
+			}
+			Separator {
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,5,-1,
+						0,5,6,-1,
+						0,6,7,-1,
+						0,7,11,-1
+					]
+				}
+			}
+		}
+	}
+}
+
+#Plena
+Separator{
+	WWWAnchor
+	{
+		name "http://www.lalaport.co.jp/"
+		Transform {
+			translation 40 10 0
+		}
+		Material {
+			diffuseColor	[
+			 1.0 1.0 1.0,
+			]
+		}
+		Separator {
+			Transform {
+				translation 10 12 5.5
+			}
+			Cube {
+				width	14
+				height	22
+				depth	1
+		    }
+		}
+		Separator {
+			Transform {
+				translation 21.5 7.5 5.5
+			}
+			Cube {
+				width	9
+				height	13
+				depth	1
+		    }
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+					2	0	5,
+					25	0	5,
+					27	2	5,
+					27	16	5,
+					25	16	5,
+					25	21	5,
+					19	21	5,
+					17	23	5,
+					2	23	5,
+					0	21	5,
+					0	13.5	5,
+					2	12.5	5,
+					2	0	0,
+					25	0	0,
+					27	2	0,
+					27	16	0,
+					25	16	0,
+					25	21	0,
+					19	21	0,
+					17	23	0,
+					2	23	0,
+					0	21	0,
+					0	13.5	0,
+					2	12.5	0,
+				]
+			}
+			IndexedFaceSet{coordIndex[0,12,13,-1,0,13,1,-1]}
+			IndexedFaceSet{coordIndex[1,13,14,-1,1,14,2,-1]}
+			IndexedFaceSet{coordIndex[2,14,15,-1,2,15,3,-1]}
+			IndexedFaceSet{coordIndex[3,15,16,-1,3,16,4,-1]}
+			IndexedFaceSet{coordIndex[6,18,19,-1,6,19,7,-1]}
+			IndexedFaceSet{coordIndex[7,19,20,-1,7,20,8,-1]}
+			IndexedFaceSet{coordIndex[8,20,21,-1,8,21,9,-1]}
+			IndexedFaceSet{coordIndex[9,21,22,-1,9,22,10,-1]}
+			IndexedFaceSet{coordIndex[10,22,23,-1,10,23,11,-1]}
+			IndexedFaceSet{coordIndex[11,23,12,-1,11,12,0,-1]}
+			Separator {
+				Material {
+					diffuseColor	[
+					 0.5 0.5 0.5,
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,1,2,-1,
+						0,2,3,-1,
+						0,3,4,-1,
+						0,4,5,-1,
+						0,5,6,-1,
+						0,6,7,-1,
+						0,7,8,-1,
+						11,8,9,-1,
+						11,9,10,-1
+					]
+				}
+				IndexedFaceSet{coordIndex[4,16,17,-1,4,17,5,-1]}
+				IndexedFaceSet{coordIndex[5,17,18,-1,5,18,6,-1]}
+			}
+		}
+	}
+}
+
+
+
+#JR
+Separator {
+	WWWAnchor
+	{
+		name "http://www.jreast.co.jp/"
+		Rotation {
+			rotation 0 0 1 0.1
+		}
+		Transform {
+			translation 70 54 0.1
+		}
+
+		Separator {
+			Transform {
+				translation -7 0 1.75
+			}
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+		    Cube {
+				width	30
+				height	5.5
+				depth	1.5
+		    }
+		}
+
+		Separator {
+			Transform {
+				translation 0 1.4 2.5
+			}
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+		    Cube {
+				width	62
+				height	0.8
+				depth	1
+		    }
+		}
+
+		Separator {
+			Transform {
+				translation 0 -1.4 2.5
+			}
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+		    Cube {
+				width	62
+				height	0.8
+				depth	1
+		    }
+		}
+
+		Separator {
+			Transform {
+				translation 0 0 0
+			}
+			Coordinate3{
+				point	[
+					-22	2.2	4,
+					-22	1.4	3.8,
+					-22	0.6	4,
+					-22	-0.6	4,
+					-22	-1.4	3.8,
+					-22	-2.2	4,
+					22	2.2	4,
+					22	1.4	3.8,
+					22	0.6	4,
+					22	-0.6	4,
+					22	-1.4	3.8,
+					22	-2.2	4
+				]
+			}
+			Material {
+				diffuseColor	1.0 1.0 0.8
+			}
+			IndexedFaceSet{coordIndex	[0,1,6,-1,1,7,6,-1]}
+			IndexedFaceSet{coordIndex	[1,2,7,-1,2,8,7,-1]}
+			IndexedFaceSet{coordIndex	[3,4,9,-1,4,10,9,-1]}
+			IndexedFaceSet{coordIndex	[4,5,10,-1,5,11,10,-1]}
+		}
+	}
+}
+
+
+#MESSE
+Separator {
+	WWWAnchor
+	{
+		name "http://www.m-messe.co.jp/"
+		Transform {
+			translation -134 -103 0
+		}
+		Separator {
+			Transform {
+				translation 78 0 2
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.7,
+				]
+			}
+		    Cube {
+				width	157
+				height	42.5
+				depth	4
+		    }
+		}
+		Separator {
+			Transform {
+				translation 88 28.25 2
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.7,
+				]
+			}
+		    Cube {
+				width	14
+				height	14
+				depth	4
+		    }
+		}
+		Separator {
+			Coordinate3{
+				point	[
+				0		18	2.5,
+				19		18	4,
+				38		18	4.6,
+				57		18	5,
+				62		18	5,
+				79		18	4.6,
+				98		18	4,
+				115		18	2.5,
+				136		18	4.3,
+				157		18	5,
+
+				0		-21.25	2.5,
+				19		-21.25	4,
+				38		-21.25	4.6,
+				57		-21.25	5,
+				62		-21.25	5,
+				79		-21.25	4.6,
+				98		-21.25	4,
+				115		-21.25	2.5,
+				136		-21.25	4.3,
+				157		-21.25	5,
+
+				0		18	0,
+				57		18	0,
+				62		18	0,
+				115		18	0,
+				157		18	0,
+
+
+				0		-21.25	0,
+				57		-21.25	0,
+				62		-21.25	0,
+				115		-21.25	0,
+				157		-21.25	0,
+
+
+				]
+			}
+			Transform {
+				translation 0 0 2.5
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 1.0 1.0 1.0,
+				 1.0 1.0 1.0,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9
+				]
+			}
+			MaterialBinding	{
+				value PER_FACE
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,10,1,-1,
+					1,10,11,-1,
+					1,11,2,-1,
+					2,11,12,-1,
+					2,12,3,-1,
+					3,12,13,-1,
+					3,13,4,-1,
+					4,13,14,-1,
+					4,14,5,-1,
+					5,14,15,-1,
+					5,15,6,-1,
+					6,15,16,-1,
+					6,16,7,-1,
+					7,16,17,-1,
+				]
+			}
+
+			IndexedFaceSet{
+				coordIndex	[
+					7,17,8,-1,
+					8,17,18,-1,
+					8,18,9,-1,
+					9,18,19,-1
+				]
+			}
+
+
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,2,3,21,20,-1,
+					4,5,6,7,23,22,-1,
+					7,8,9,24,23,-1,
+
+
+					25,26,13,12,11,10,-1,
+					27,28,17,16,15,14,-1,
+					28,29,19,18,17,-1,
+				]
+			}
+
+
+		}
+
+
+
+
+		Separator {
+			Transform {
+				translation 60 36 2.5
+			}
+			Coordinate3{
+				point	[
+				-8.1	11		1.4,
+				-5.4	12.4	1.7,
+				-2.7	13.4	1.9,
+				0		13.6	2,
+				2.7		13.4	1.9,
+				5.4		12.4	1.7,
+				8.1	11		1.4,
+
+				-12		7		1,
+				-9		7		2.5,
+				-6		7		3.5,
+				-3		7		3.9,
+				0		7		4.1,
+				3		7		3.9,
+				6		7		3.5,
+				9		7		2.5,
+				12		7		1,
+
+				-12		-7		1,
+				-9		-7		2.5,
+				-6		-7		3.5,
+				-3		-7		3.9,
+				0		-7		4.1,
+				3		-7		3.9,
+				6		-7		3.5,
+				9		-7		2.5,
+				12		-7		1,
+
+				-8.1	-11		1.4,
+				-5.4	-12.4	1.7,
+				-2.7	-13.4	1.9,
+				0		-13.6	2,
+				2.7		-13.4	1.9,
+				5.4		-12.4	1.7,
+				8.1		-11		1.4
+				]
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				 0.7 0.7 0.9,
+				]
+			}
+			MaterialBinding	{
+				value PER_FACE
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,7,8,-1,
+					0,8,1,-1,
+					1,8,9,-1,
+					1,9,2,-1,
+					2,9,10,-1,
+					2,10,3,-1,
+					3,10,11,-1,
+					3,11,4,-1,
+					4,11,12,-1,
+					4,12,5,-1,
+					5,12,13,-1,
+					5,13,6,-1,
+					6,13,14,-1,
+					6,14,15,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,16,8,-1,
+					8,16,17,-1,
+					8,17,9,-1,
+					9,17,18,-1,
+					9,18,10,-1,
+					10,18,19,-1,
+					10,19,11,-1,
+					11,19,20,-1,
+					11,20,12,-1,
+					12,20,21,-1,
+					12,21,13,-1,
+					13,21,22,-1,
+					13,22,14,-1,
+					14,22,23,-1,
+					14,23,15,-1,
+					15,23,24,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					16,25,17,-1,
+					17,25,18,-1,
+					18,25,26,-1,
+					18,26,19,-1,
+					19,26,27,-1,
+					19,27,20,-1,
+					20,27,28,-1,
+					20,28,21,-1,
+					21,28,29,-1,
+					21,29,22,-1,
+					22,29,30,-1,
+					22,30,23,-1,
+					23,30,31,-1,
+					23,31,24,-1
+				]
+			}
+		}
+
+
+# International Exhibition Hall Annex
+		Separator {
+			Transform {
+				translation 60 105 2
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.7,
+				]
+			}
+		    Cube {
+				width	34.7
+				height	58
+				depth	4
+		    }
+		}
+
+
+
+
+		Separator {
+			Transform {
+				translation 45 105 0
+			}
+			Coordinate3{
+				point	[
+					0		-34	4.0,
+					7.375	-34	4.8,
+					14.75	-34	5.9,
+					22.125	-34	7.2,
+					29.5	-34	9.3,
+					0		4.5	4.0,
+					7.375	4.5	4.8,
+					14.75	4.5	5.9,
+					22.125	4.5	7.2,
+					29.5	4.5	9.3,
+				]
+			}
+			Material {
+				diffuseColor	[0.7 0.7 0.9]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+				0,6,5,-1,
+				0,1,6,-1,
+				1,7,6,-1,
+				1,2,7,-1,
+				2,8,7,-1,
+				2,3,8,-1,
+				3,9,8,-1,
+				3,4,9,-1
+				]
+			}
+		}
+
+
+
+		Separator {
+			Transform {
+				translation 45 105 0
+			}
+			Coordinate3{
+				point	[
+					0		4.5	4.0,
+					7.375	4.5	4.8,
+					14.75	4.5	5.7,
+					22.125	4.5	5.9,
+					29.5	4.5	4.0,
+					0		29	4.0,
+					7.375	29	4.8,
+					14.75	29	5.7,
+					22.125	29	5.9,
+					29.5	29	4.0,
+				]
+			}
+			Material {
+				diffuseColor	[0.7 0.7 0.9]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+				0,6,5,-1,
+				0,1,6,-1,
+				1,7,6,-1,
+				1,2,7,-1,
+				2,8,7,-1,
+				2,3,8,-1,
+				3,9,8,-1,
+				3,4,9,-1
+				]
+			}
+		}
+
+
+		Separator {
+			Transform {
+				translation 45 105 0
+			}
+			Coordinate3{
+				point	[
+					30	-29	6.0,
+					31	-29	6.0,
+					33	-29	4.0,
+					34	-29	3.8,
+					35	-29	3.5,
+					36	-29	3.0,
+					30	-29	6.0,
+					31	29	6.0,
+					33	29	4.0,
+					34	29	3.8,
+					35	29	3.5,
+					36	29	3.0
+				]
+			}
+			Material {
+				diffuseColor	[0.7 0.7 0.9]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+				0,7,6,-1,
+				0,1,7,-1,
+				1,8,7,-1,
+				1,2,8,-1,
+				2,9,8,-1,
+				2,3,9,-1,
+				3,10,9,-1,
+				3,4,10,-1,
+				4,11,10,-1,
+				4,5,11,-1
+				]
+			}
+		}
+
+
+#INTERNATIONAL CONFERENCE HALL
+
+		Separator {
+			Transform {
+				translation 136 32 2
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.7,
+				]
+			}
+		    Cube {
+				width	20
+				height	18
+				depth	4
+		    }
+		}
+
+
+		Separator {
+			Transform {
+				translation 146 39 2
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.7,
+				]
+			}
+		    Cube {
+				width	10
+				height	10
+				depth	4
+		    }
+		}
+
+
+		Separator {
+			Transform {
+				translation 127 33 2.5
+			}
+			Material {
+				diffuseColor	[
+				 0.7 0.7 0.7,
+				]
+			}
+		    Cube {
+				width	12
+				height	17
+				depth	5
+		    }
+		}
+
+
+	}
+}
+
+
+
+#MarineStudium
+Separator {
+	WWWAnchor
+	{
+		name "http://www.marines.co.jp/"
+		Transform {
+			translation -82 -200 0
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+					0	29	0,
+					-14	25	0,
+					-25	14.5	0,
+					-29	0	0,
+					-25	-14.5	0,
+					-14.5	-25	0,
+					0	-29	0,
+					14.5	-25	0,
+					25	-14.5	0,
+					29	0	0,
+					25	14.5	0,
+					14.5	25	0,
+
+					0	29	5,
+					-14	25	4.86,
+					-25	14.5	4.5,
+					-29	0	4,
+					-25	-14.5	3.5,
+					-14.5	-25	3.14,
+					0	-29	3,
+					14.5	-25	3.14,
+					25	-14.5	3.5,
+					29	0	4,
+					25	14.5	4.5,
+					14.5	25	4.86,
+
+					0	23	5,
+					-12.25	19.7176 4.86,
+					-21.2176	10.75	4.5,
+					-24.5	-1.5	4,
+					-21.2176	-13.75	3.5,
+					-12.25  -21.7176	3.14,
+					0	-26	3,
+					12.25	-22.7176	3.14,
+					21.2176	-13.75	3.5,
+					24.5	-1.5	4,
+					21.2176	10.75	4.5,
+					12.25	19.7176	4.86,
+				]
+			}
+			Separator {
+				Material {
+					diffuseColor	[
+					 0.4 1.0 1.0,
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+					0,1,12,-1,
+					1,13,12,-1,
+					1,2,13,-1,
+					2,14,13,-1,
+					2,3,14,-1,
+					3,15,14,-1,
+					3,4,15,-1,
+					4,16,15,-1,
+					4,5,16,-1,
+					5,17,16,-1,
+					5,6,17,-1,
+					6,18,17,-1,
+					6,7,18,-1,
+					7,19,18,-1,
+					7,8,19,-1,
+					8,20,19,-1,
+					8,9,20,-1,
+					9,21,20,-1,
+					9,10,21,-1,
+					10,22,21,-1,
+					10,11,22,-1,
+					11,23,22,-1,
+					11,0,23,-1,
+					0,12,23,-1
+					]
+				}
+			}
+
+			Separator {
+				Material {
+					diffuseColor[1 1 1]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						12,13,24,-1,
+						13,25,24,-1,
+						13,14,25,-1,
+						14,26,25,-1,
+						14,15,26,-1,
+						15,27,26,-1,
+						15,16,27,-1,
+						16,28,27,-1,
+						16,17,28,-1,
+						17,29,28,-1,
+						17,18,29,-1,
+						18,30,29,-1,
+						18,19,30,-1,
+						19,31,30,-1,
+						19,20,31,-1,
+						20,32,31,-1,
+						20,21,32,-1,
+						21,33,32,-1,
+						21,22,33,-1,
+						22,34,33,-1,
+						22,23,34,-1,
+						23,35,34,-1,
+						23,12,35,-1,
+						12,24,35,-1
+					]
+				}
+			}
+		}
+	}
+}
+
+
+#Rail
+Separator {
+	Transform {
+		translation 0 52 0
+	}
+	Rotation {
+		rotation 0 0 1 0.1
+	}
+	Separator {
+
+		Coordinate3{
+			point	[
+			-160 5 3,
+			-160 9 3,
+			-140 4 3,
+			-140 8 3,
+			-120 3 3,
+			-120 7 3,
+			-100 2 3,
+			-100 6 3,
+			-80 1 3,
+			-80 5 3,
+			-60 0 3,
+			-60 4 3,
+			-40 0 3,
+			-40 4 3,
+			-20 0 3,
+			-20 4 3,
+			0 0 3,
+			0 4 3,
+			20 0 3,
+			20 4 3,
+			40 0 3,
+			40 4 3,
+			60 0 3,
+			60 4 3,
+			80 0 3,
+			80 4 3,
+			100 0 3,
+			100 4 3,
+			120 0 3,
+			120 4 3,
+			140 0 3,
+			140 4 3,
+			160 0 3,
+			160 4 3,
+			180 0 3,
+			180 4 3,
+			200 0 3,
+			200 4 3,
+			220 0 3,
+			220 4 3,
+			240 0 3,
+			240 4 3,
+			260 0 3,
+			260 4 3,
+			]
+		}
+		Material {
+			diffuseColor [1 1 1]
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				2,3,1,0,-1,
+				6,7,5,4,-1,
+				10,11,9,8,-1,
+				14,15,13,12,-1,
+				18,19,17,16,-1,
+				22,23,21,20,-1,
+				26,27,25,24,-1,
+				30,31,29,28,-1,
+				34,35,33,32,-1,
+				38,39,37,36,-1,
+				42,43,41,40,-1
+			]
+		}
+
+		Material {
+			diffuseColor [0 0 0]
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				4,5,3,2,-1,
+				8,9,7,6,-1,
+				12,13,11,10,-1,
+				16,17,15,14,-1,
+				20,21,19,18,-1,
+				24,25,23,22,-1,
+				28,29,27,26,-1,
+				32,33,31,30,-1,
+				36,37,35,34,-1,
+				40,41,39,38,-1
+			]
+		}
+	}
+}
+
+
+#ROAD
+Separator {
+	WWWAnchor
+	{
+		name "http://www.japan-highway.go.jp"
+		Transform {
+			translation 0 231 2
+		}
+		Material {
+			diffuseColor	[
+			 0.6 0.6 0.6,
+			]
+		}
+		Rotation {
+			rotation 0 0 1 0.12
+		}
+	    Cube {
+			width	320
+			height	10
+			depth	1
+	    }
+	}
+}
+
+
+#PAL
+Separator {
+	WWWAnchor
+	{
+		name "http://www.makuhari.or.jp/main/plaza/index.html"
+		Transform {
+			translation 77 147 0
+		}
+#D
+		Separator {
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation 21 -6.2 1
+			}
+			Rotation {
+				rotation 0 0 1 0.07
+			}
+			Cube {
+				width	6.4
+				height	5.4
+				depth	2
+		    }
+		}
+
+		Separator {
+			Material {diffuseColor 0 1 1}
+			Transform {translation 0 0 2.5}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cone {height 2  bottomRadius 2.4}
+		}
+
+		Separator {
+			Material {diffuseColor 0.9 0.8 1.0}
+			Transform {translation 0 0 .75}
+			Rotation {
+				rotation 1 0 0 1.5708
+			}
+			Cylinder {
+				radius 2.3
+				height 1.5
+			}
+		}
+
+
+
+#A
+		Separator {
+			Transform {
+				translation 9.4 -6.9 0
+			}
+			Coordinate3{
+				point	[
+					-6	2.3	0,
+					-6	-2.3	0,
+					-6	-2.3	2,
+					-6	2.3	3,
+					6	2.3	0,
+					6	-2.3	0,
+					6	-2.3	2,
+					6	2.3	3
+				]
+			}
+			Material {diffuseColor	1.0 1.0 0.8}
+			IndexedFaceSet{coordIndex	[3,0,2,-1,2,0,1,-1]}
+			IndexedFaceSet{coordIndex	[2,1,6,-1,6,1,5,-1]}
+			IndexedFaceSet{coordIndex	[6,5,7,-1,7,5,4,-1]}
+			IndexedFaceSet{coordIndex	[7,4,3,-1,3,4,0,-1]}
+			IndexedFaceSet{coordIndex	[6,3,2,-1,7,3,6,-1]}
+		}
+
+
+
+#B
+		Separator {
+			Transform {
+				translation 6.4 1 0
+			}
+			Coordinate3{
+				point	[
+					-3	2.2	0,
+					-3	-2.2	0,
+					-3	-2.2	3,
+					-3	2.2	2,
+					3	2.2	0,
+					3	-2.2	0,
+					3	-2.2	3,
+					3	2.2	2
+				]
+			}
+			Material {diffuseColor	1.0 1.0 0.8}
+			IndexedFaceSet{coordIndex	[3,0,2,-1,2,0,1,-1]}
+			IndexedFaceSet{coordIndex	[2,1,6,-1,6,1,5,-1]}
+			IndexedFaceSet{coordIndex	[6,5,7,-1,7,5,4,-1]}
+			IndexedFaceSet{coordIndex	[7,4,3,-1,3,4,0,-1]}
+			IndexedFaceSet{coordIndex	[6,3,2,-1,7,3,6,-1]}
+		}
+
+
+#C
+		Separator {
+			Transform {
+				translation 16.5 1.0 0
+			}
+			Rotation {
+				rotation 0 0 1 0.07
+			}
+			Coordinate3{
+				point	[
+					-4.9	1.9	0,
+					-4.9	-1.9	0,
+					-4.9	-1.9	3,
+					-4.9	1.9	2,
+					4.9	1.9	0,
+					4.9	-1.9	0,
+					4.9	-1.9	3,
+					4.9	1.9	2
+				]
+			}
+			Material {diffuseColor	1.0 1.0 0.8}
+			IndexedFaceSet{coordIndex	[3,0,2,-1,2,0,1,-1]}
+			IndexedFaceSet{coordIndex	[2,1,6,-1,6,1,5,-1]}
+			IndexedFaceSet{coordIndex	[6,5,7,-1,7,5,4,-1]}
+			IndexedFaceSet{coordIndex	[7,4,3,-1,3,4,0,-1]}
+			IndexedFaceSet{coordIndex	[6,3,2,-1,7,3,6,-1]}
+		}
+	}
+}
+
+
+
+#
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+				-204 200 0,
+				-189 205 0,
+				-185 150 0,
+				-169 150 0,
+				-174 90 0,
+				-158 90 0,
+				-174 -140 0,
+				-158 -140 0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,2,3,1,-1,
+				2,4,5,3,-1,
+				4,6,7,5,-1,
+			]
+		}
+	}
+}
+
+
+
+
+
+#HotelSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			39	3	0,
+			39	8	0,
+			120	8	0,
+			121	3	0
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				3,2,1,0,-1,
+			]
+		}
+	}
+}
+
+
+
+#HotelSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			72	-13	0,
+			72	-16	0,
+			128	-16	0,
+			126	-13	0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,1,2,3,-1,
+			]
+		}
+	}
+}
+
+
+#KaihinOhSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-190	-126	1,
+			-190	-139	1,
+
+			130		-148	1,
+			129		-161	1,
+
+			174		-162	1,
+			170		-175	1,
+
+			295		-247	1,
+			290		-260	1,
+
+
+			340		-267	1,
+			338		-280	1,
+
+
+			460		-276	1,
+			460		-289	1,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,1,3,2,-1,
+				2,3,5,4,-1,
+				4,5,7,6,-1,
+				6,7,9,8,-1,
+				8,9,11,10,-1,
+			]
+		}
+	}
+}
+
+#MesseOSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-200	-49	0,
+			-200	-40	0,
+			100		-49	0,
+			100		-40	0,
+			129		-56	0, #mihama RU
+			132		-46	0,
+			320		-158	0,
+			322		-151	0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,2,3,1,-1,
+				2,4,5,3,-1,
+				4,6,7,5,-1,
+			]
+		}
+	}
+}
+
+
+DEF HamadaOSt Separator {
+	Transform {
+		translation 0 0 0
+	}
+	#Bus Stop
+	Separator {
+		Coordinate3{
+			point	[
+			44		80	1,
+			48		71	1,
+			59		71	1,
+			61		73	1,
+			61		86	1,
+			59		88	1,
+			44		88	1,
+
+			32		88	1,
+			32		80	1,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,1,2,3,4,5,6,-1,
+				0,6,7,8,-1,
+			]
+		}
+	}
+
+	Separator {
+		Coordinate3{
+			point	[
+			-180	88	1,
+			32		88	1,
+			32		84.5	1,
+			-180		84.5	1,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,1,-1,
+			]
+		}
+	}
+
+	Separator {
+		Coordinate3{
+			point	[
+			-180	83.5	1,
+			32		83.5	1,
+			32		80	1,
+			-180		80	1,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,1,-1,
+			]
+		}
+	}
+}
+
+
+
+#357
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-210 199	0,
+			-210 212 0,
+			180 261	0,
+			180 246	0,
+
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,1,-1,
+			]
+		}
+	}
+}
+
+
+#  Kokusai O Street
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			39 240	0,
+			35 240 0,
+			35 -152	0,
+			39 -152	0,
+
+			34 240	0,
+			30 240 0,
+			30 -152	0,
+			34 -152	0
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,1,2,3,-1,
+				4,5,6,7,-1
+			]
+		}
+	}
+}
+
+
+#KokusaiOSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-99 223	0,
+			-92 223 0,
+			-92 -40	0,
+			-99 -40	0
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,1,-1
+			]
+		}
+	}
+}
+
+#HitechSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-92	167	0,
+			-92	174	0,
+			60		167	0,
+			60		174	0,
+			95		182	0,
+			95		189	0,
+			115		194	0,
+			114		201	0,
+			145		198	0,
+			145		205	0,
+			340		198	0,
+			340		205	0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,2,3,1,-1,
+				2,4,5,3,-1,
+				4,6,7,5,-1,
+				6,8,9,7,-1,
+				8,10,11,9,-1,
+			]
+		}
+	}
+}
+
+
+#Mall East
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-27 167	0,
+			-22 167 0,
+			-22 -40	0,
+			-27 -40	0
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,-1,
+				0,2,1,-1
+			]
+		}
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-47 167	0,
+			-42 167 0,
+			-42 -40	0,
+			-47 -40	0
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,-1,
+				0,2,1,-1
+			]
+		}
+	}
+}
+
+
+
+DEF SIIURA Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-99	173	0,
+			-99	168	0,
+			-130	173	0,
+			-127	168	0,
+			-137	165	0,
+			-132	163	0,
+			-137	-40	0,
+			-132	-40	0
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,2,3,-1,0,3,1,-1,
+				2,4,5,-1,2,5,3,-1,
+				4,6,7,-1,4,7,5,-1
+			]
+		}
+	}
+}
+
+
+DEF Kouen Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			109 158	0,
+			94 182 0,
+			115 194 0,
+			145 198	0,
+			143 140	0,
+			153 110	0,
+			191 59	0,
+			204 24	0,
+			204 -10	0,
+			175 -70	0, #9
+			132 -46	0, #10
+			133 -30	0,
+			120  10	0,
+			120  27	0,
+			132  63	0,#14
+			131  80	0,
+			113  117	0,
+			]
+		}
+		Material {
+			diffuseColor 0.3 0.7 0.3
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				4,3,2,1,0,-1,
+				0,16,5,4,-1,
+				16,15,6,5,-1,
+				15,14,7,6,-1,
+				14,13,12,11,9,8,7,-1,
+				11,10,9,-1,
+			]
+		}
+	}
+}
+
+
+DEF Mihamaen Separator {
+	WWWAnchor
+	{
+		name "http://www.city.chiba.jp/kenchiku/yshukntk/mihamaen.htm"
+		Transform {
+			translation 0 0 1
+		}
+		Separator {
+			Coordinate3{
+				point	[
+					170 -78 0,
+					129	-56	0, #mihama RU
+					108 -147 0,
+					130 -148 0,
+				]
+			}
+			Material {
+				diffuseColor 0.3 0.7 0.3
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,2,3,-1
+				]
+			}
+		}
+	}
+}
+
+DEF KouenSt Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+
+			94 182 0,
+			109 158	0,
+			113  117	0,
+			131  80	0,
+			132  63	0,
+			120  27	0,
+			120  10	0,
+			133 -30	0,
+			132 -46	0,
+
+			128 -46	0,
+			130 -30	0,
+			117  10	0,
+			117  27	0,
+			129  63	0,
+			128  80	0,
+			110  117	0,
+			106 158	0,
+			91 182 0,
+
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0,-1
+			]
+		}
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			-47 167	0,
+			-42 167 0,
+			-42 -40	0,
+			-47 -40	0
+			]
+		}
+	}
+}
+
+
+DEF Kouen Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			145 250	0,
+			155 250	0,
+
+			143 140	0,
+			153 140	0,
+
+			153 110	0,
+			163 110	0,
+
+			191 59	0,
+			201 59	0,
+
+			204 24	0,
+			214 24	0,
+
+			204 -10	0,
+			214 -10	0,
+
+			175 -69	0, #9
+			185 -69	0, #9
+
+			130 -148	0, #10
+			139 -153	0, #10
+
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,2,3,1,-1,
+				2,4,5,3,-1,
+				4,6,7,5,-1,
+				6,8,9,7,-1,
+				8,10,11,9,-1,
+				10,12,13,11,-1,
+				12,14,15,13,-1,
+			]
+		}
+	}
+}
+
+
+#HOTELSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			90	127	0,
+			94	8	0,
+			98	8	0,
+			94	127	0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[0,1,2,3,-1]
+		}
+	}
+}
+
+
+#HOTELSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			72	3	0,
+			72	-40	0,
+			68	-40	0,
+			68	3	0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[0,3,2,1,-1]
+		}
+	}
+}
+
+
+#PalSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			39	127	0,
+			109	127	0,
+			109	131	0,
+			39	131	0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[0,3,2,1,-1]
+		}
+	}
+}
+
+
+#PalNSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			73	151	0,
+			73	154	0,
+			109	154	0,
+			109	151	0
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,1,-1
+			]
+		}
+	}
+}
+
+
+#JomoSt
+Separator {
+	Transform {
+		translation 0 0 1
+	}
+	Separator {
+		Coordinate3{
+			point	[
+			68	131	0,
+			68	172	0,
+			73	173	0,
+			73	131	0,
+			]
+		}
+		Material {
+			diffuseColor 0.7 0.7 0.7
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,3,2,1,-1
+			]
+		}
+	}
+}
+
+
+DEF MALL Separator {
+	WWWAnchor
+	{
+		name "http://www.pref.chiba.jp/Business/Makuhari/parking-j.html"
+		Transform {
+			translation -34.5 128 0
+		}
+		Separator {
+			Transform {
+				translation 0 0 0
+			}
+			Coordinate3{
+				point	[
+				-7.0	-32.5	2,
+				-5.0	-34.5	2,
+				5.0		-34.5	2,
+				7.0		-32.5	2,
+				7.0		32.5	2,
+				5.0		34.5	2,
+				-5.0	34.5	2,
+				-7.0	32.5	2,
+
+				-7.0	-32.5	0,
+				-5.0	-34.5	0,
+				5.0		-34.5	0,
+				7.0		-32.5	0,
+				7.0		32.5	0,
+				5.0		34.5	0,
+				-5.0	34.5	0,
+				-7.0	32.5	0
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,8,9,-1,0,9,1,-1,
+					1,9,10,-1,1,10,2,-1,
+					2,10,11,-1,	2,11,3,-1,
+					3,11,12,-1,	3,12,4,-1,
+					4,12,13,-1,	4,13,5,-1,
+					5,13,14,-1,	5,14,6,-1,
+					6,14,15,-1,	6,15,7,-1,
+					7,15,8,-1,7,8,0,-1,
+				]
+			}
+			Material {
+				diffuseColor 0.3 1 0.4
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,7,1,6,-1,
+					6,1,2,-1,
+					6,2,5,-1,
+					5,2,3,-1,
+					5,3,4,-1
+				]
+			}
+		}
+
+		Separator {
+			Transform {
+				translation 0 -60 0
+			}
+			Coordinate3{
+				point	[
+				-7.0	-7.0	2,
+				-5.0	-9.0	2,
+				5.0		-8.0	2,
+				7.0		-6.0	2,
+				7.0		7.0	2,
+				5.0		9.0	2,
+				-5.0	9.0	2,
+				-7.0	7.0	2,
+
+				-7.0	-7.0	0,
+				-5.0	-9.0	0,
+				5.0		-8.0	0,
+				7.0		-6.0	0,
+				7.0		7.0	0,
+				5.0		9.0	0,
+				-5.0	9.0	0,
+				-7.0	7.0	0
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,8,9,-1,0,9,1,-1,
+					1,9,10,-1,1,10,2,-1,
+					2,10,11,-1,	2,11,3,-1,
+					3,11,12,-1,	3,12,4,-1,
+					4,12,13,-1,	4,13,5,-1,
+					5,13,14,-1,	5,14,6,-1,
+					6,14,15,-1,	6,15,7,-1,
+					7,15,8,-1,7,8,0,-1,
+				]
+			}
+			Material {
+				diffuseColor 0.3 1 0.4
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,7,1,6,-1,
+					6,1,2,-1,
+					6,2,5,-1,
+					5,2,3,-1,
+					5,3,4,-1
+				]
+			}
+		}
+
+
+		Separator {
+			Transform {
+				translation 0 -128 0
+			}
+			Coordinate3{
+				point	[
+				-7.0	-35.5	2,
+				-5.0	-37.5	2,
+				5.0		-37.5	2,
+				7.0		-35.5	2,
+				7.0		35.5	2,
+				5.0		37.5	2,
+				-5.0	37.5	2,
+				-7.0	35.5	2,
+
+				-7.0	-35.5	0,
+				-5.0	-37.5	0,
+				5.0		-37.5	0,
+				7.0		-35.5	0,
+				7.0		35.5	0,
+				5.0		37.5	0,
+				-5.0	37.5	0,
+				-7.0	35.5	0
+				]
+			}
+
+			Material {
+				diffuseColor 0.9 1 1
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,8,9,-1,0,9,1,-1,
+					1,9,10,-1,1,10,2,-1,
+					2,10,11,-1,	2,11,3,-1,
+					3,11,12,-1,	3,12,4,-1,
+					4,12,13,-1,	4,13,5,-1,
+					5,13,14,-1,	5,14,6,-1,
+					6,14,15,-1,	6,15,7,-1,
+					7,15,8,-1,7,8,0,-1,
+				]
+			}
+			Material {
+				diffuseColor 0.3 1 0.4
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,7,-1,7,1,6,-1,
+					6,1,2,-1,
+					6,2,5,-1,
+					5,2,3,-1,
+					5,3,4,-1
+				]
+			}
+		}
+	}
+}
+
+#JOMO
+Separator {
+	WWWAnchor
+	{
+		name "http://www.jomo.co.jp/"
+		Transform {
+			translation 89 172 0
+		}
+		Separator {
+			Transform {
+				translation 0 0 2
+				rotation 0 0 1 0.2
+			}
+			Material {
+				diffuseColor	[
+				 0.3 0.7 0.1,
+				]
+			}
+		    Cube {
+				width	9
+				height	5
+				depth	0.2
+		    }
+		}
+
+		Separator {
+			Transform {
+				translation 0 -2.4 1
+			}
+			Material {
+				diffuseColor	[
+				 1 0.9 0.6,
+				]
+			}
+		    Cube {
+				width	7
+				height	0.8
+				depth	1
+		    }
+		}
+
+
+		Separator {
+			Transform {
+				translation -7 -2 1
+			}
+			Material {
+				diffuseColor	[
+				 1 1 0.6,
+				]
+			}
+		    Cube {
+				width	5
+				height	1.3
+				depth	1
+		    }
+		}
+	}
+}
+
+#shinnihon-c
+Separator {
+	WWWAnchor
+	{
+		name "http://www.shinnihon-c.co.jp/"
+		Transform {
+			translation 102 157 0
+		}
+		Separator {
+			Transform {
+				translation -6.75 3 6
+			}
+			Material {
+				diffuseColor	[
+					0.8 0.8 0.7
+				]
+			}
+		    Cube {
+				width	2
+				height	2
+				depth	12
+		    }
+		}
+
+		Separator {
+			Transform {
+				translation -6.75 5.5 5.5
+			}
+			Material {
+				diffuseColor	[
+					0.8 0.8 0.7
+				]
+			}
+		    Cube {
+				width	2
+				height	3
+				depth	11
+		    }
+		}
+
+		Separator {
+			Transform {
+				translation -3 0 6
+			}
+			Material {
+				diffuseColor	[
+					0.8 0.8 0.7
+				]
+			}
+		    Cube {
+				width	9.5
+				height	4
+				depth	12
+		    }
+		}
+
+
+		Separator {
+			Coordinate3{
+				point	[
+				1.75	-2	0,
+				2.75	-0.5	0,
+				1.75	1	0,
+				1.75	-2	2,
+				2.75	-0.5	2,
+				1.75	1	2
+				]
+			}
+			Material {
+				diffuseColor 0.7 0.7 0.7
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					0,1,4,3,-1,
+					1,2,5,4,-1,
+					3,4,5,-1,
+				]
+			}
+		}
+	}
+}
+
+
+#Sea
+Separator {
+	Transform {
+		translation 0 0 0
+	}
+	Separator {
+
+		Coordinate3{
+			point	[
+			-170 240 -1,
+			-170 -280 -1,
+			500 240 -1,
+			500 -300 -1,
+			]
+		}
+		Material {
+			diffuseColor [0 1 1]
+		}
+		IndexedFaceSet{
+			coordIndex	[
+				0,1,3,2,-1,
+			]
+		}
+	}
+}
+
+
+#Carrefour
+Separator {
+	WWWAnchor
+	{
+		name "http://www.carrefour.com"
+		Transform {
+			translation 80 195 0
+		}
+
+		Separator {
+			Coordinate3{
+				point	[
+				-3	-24	4,
+				-16	-24	4,
+				-16	-19	4,
+				-18 -19	4,
+				-18	13	4,
+				-15  13	4,
+				-15	17	4,
+				28	24	4,
+				28	11	4,
+				24	11	4,
+				24	-13	4,
+				7	-21	4,
+
+				-3	-24	0,
+				-16	-24	0,
+				-16	-19	0,
+				-18 -19	0,
+				-18	13	0,
+				-15  13	0,
+				-15	17	0,
+				28	24	0,
+				28	11	0,
+				24	11	0,
+				24	-13	0,
+				7	-21	0,
+
+				27	-13	0,
+				27	11	4,
+				27	11	0
+				]
+			}
+
+
+
+			Separator {
+				Material {
+					diffuseColor 0 0 1
+				}
+				Transform {
+					translation -20 10 0
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						0,12,13,-1,
+						0,13,1,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						1,13,14,-1,
+						1,14,2,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						2,14,15,-1,
+						2,15,3,-1
+					]
+				}
+			}
+
+
+			Material {
+				diffuseColor 1 1 1
+			}
+			Transform {
+				translation -20 10 0
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					3,15,16,-1,
+					3,16,4,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					4,16,17,-1,
+					4,17,5,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					5,17,18,-1,
+					5,18,6,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					6,18,19,-1,
+					6,19,7,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					7,19,20,-1,
+					7,20,8,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					8,20,21,-1,
+					8,21,9,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					9,21,22,-1,
+					9,22,10,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					10,22,23,-1,
+					10,23,11,-1
+				]
+			}
+			IndexedFaceSet{
+				coordIndex	[
+					11,23,12,-1,
+					11,12,0,-1
+				]
+			}
+
+
+			IndexedFaceSet{
+				coordIndex	[
+					24,25,26,-1
+				]
+			}
+
+			Separator {
+				Material {
+					diffuseColor 0.6 0.6 0.6
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						4,3,2,-1,
+						5,4,2,-1,
+						9,5,2,-1,
+						10,9,2,-1,
+						11,10,2,-1,
+						0,11,2,-1,
+						1,0,2,-1,
+
+						6,5,9,-1,
+						7,6,9,-1,
+						8,7,9,-1
+					]
+				}
+				IndexedFaceSet{
+					coordIndex	[
+						9,25,24,22,-1
+					]
+				}
+			}
+		}
+
+
+
+		WWWAnchor
+		{
+			name "http://www.gardenwalk-outlet.com"
+			Separator {
+				Material {
+					diffuseColor 1 1 1
+				}
+				Transform {
+					translation -33 -5 5.6
+				}
+				Cube {
+					width	8
+					height	2
+					depth	2.5
+			    }
+			}
+		}
+
+
+
+		WWWAnchor
+		{
+			name "http://www.gardenwalk-outlet.com"
+			Separator {
+				Material {
+					diffuseColor 1 1 1
+				}
+				Transform {
+					translation 5 28 5.6
+				}
+				Cube {
+					width	2
+					height	8
+					depth	2.5
+			    }
+			}
+		}
+	}
+}
+
