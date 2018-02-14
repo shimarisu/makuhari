@@ -2958,55 +2958,6 @@ Separator {
 		Transform {
 			translation -118 182 0
 		}
-		Separator {
-			Material {
-				diffuseColor 0 0 1
-			}
-			Transform {
-				translation -16 1 26
-			}
-			Rotation {
-				rotation 0 0 1  0.7854
-			}
-			Cylinder {
-				radius 0.7
-				height 0.3
-			}
-		}
-
-		Separator {
-			Material {
-				diffuseColor 0 0 1
-			}
-			Transform {
-				translation -16.6 0.4 26.5
-			}
-			Rotation {
-				rotation 0 0 1  0.7854
-			}
-			Cylinder {
-				radius 0.2
-				height 0.3
-			}
-		}
-
-
-
-		Separator {
-			Material {
-				diffuseColor 0.9 0.9 0.9
-			}
-			Transform {
-				translation 6 13 2
-			}
-			Rotation {
-				rotation 1 0 0  1.5708
-			}
-			Cylinder {
-				radius 4.5
-				height 4
-			}
-		}
 
 		Separator {
 			Transform {
