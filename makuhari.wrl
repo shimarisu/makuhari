@@ -7906,11 +7906,11 @@ Separator {
 }
 
 
-#Carrefour
+#AEON
 Separator {
 	WWWAnchor
 	{
-		name "http://www.carrefour.com"
+		name "http://www.aeon.co.jp/"
 		Transform {
 			translation 80 195 0
 		}
