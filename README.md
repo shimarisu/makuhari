@@ -5,5 +5,5 @@ Makuhari City Chiba Japan
 
 very big source code
 
-modify apa hotel link
-
+- [World Buisiness Garden](http://www.wbg35.com/)
+- [Makuhari Techno Garden](https://www.mtg-bld.co.jp/)
