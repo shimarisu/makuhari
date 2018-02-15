@@ -4584,7 +4584,7 @@ Separator {
 Separator {
 	WWWAnchor
 	{
-		name "http://www.tokyobay-makuhari.com/"
+		name "https://www.apahotel.com/makuhari/"
 		Transform {
 			translation 66 -136 0
 		}
