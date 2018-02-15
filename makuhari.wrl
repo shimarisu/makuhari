@@ -2581,7 +2581,7 @@ Separator {
 Separator {
 	WWWAnchor
 	{
-		name "http://www.canon-sales.co.jp/"
+		name "http://cweb.canon.jp/corporate/"
 		Transform {
 			translation -78 190 0
 		}
@@ -2807,7 +2807,7 @@ Separator {
 Separator {
 	WWWAnchor
 	{
-		name "http://www1m.mesh.ne.jp/chiba110/"
+		name "http://www.police.pref.chiba.jp/"
 		Transform {
 			translation 42 66 0
 		}
